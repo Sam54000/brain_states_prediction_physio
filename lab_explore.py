@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import scipy
 import os
+from ecgdetectors import Detectors
 from pathlib import Path
 from scipy import signal
 #%%
@@ -57,39 +58,90 @@ def extract_eyelink_events(
     cropped_df.rename(columns={1:"time_ms",2: "event_name"}, inplace=True)
     return cropped_df[["time_ms","event_name"]]
 
-def bandpass_filter(data: np.ndarray, 
-                   sampling_rate: float, 
-                   lowcut: float, 
-                   highcut: float, 
-                   order: int = 5) -> np.ndarray:
+def filter_signal(data: np.ndarray, fs: float, lowcut: float = 0.5, highcut: float = 40.0, order: int = 5) -> np.ndarray:
     """
-    Apply a Butterworth band-pass filter to a time-series data.
+    Apply a bandpass filter to ECG signal data using second-order sections.
     
     Args:
-        data (np.ndarray): 1D array of time-series data
-        sampling_rate (float): Sampling rate of the data in Hz
-        lowcut (float): Lower frequency bound of the filter in Hz
-        highcut (float): Higher frequency bound of the filter in Hz
-        order (int, optional): Order of the filter. Defaults to 5.
+        ecg_data (np.ndarray): Raw ECG signal as 1-D numpy array
+        fs (float): Sampling frequency in Hz
+        lowcut (float, optional): Low cutoff frequency in Hz. Defaults to 0.5 Hz.
+        highcut (float, optional): High cutoff frequency in Hz. Defaults to 40.0 Hz.
+        order (int, optional): Filter order. Defaults to 5.
         
     Returns:
-        np.ndarray: Filtered data
+        np.ndarray: Filtered ECG signal
     """
-    # Normalize the frequencies by the Nyquist frequency
-    nyquist = sampling_rate / 2.0
+    nyquist = 0.5 * fs
     low = lowcut / nyquist
     high = highcut / nyquist
     
-    # Design the Butterworth filter
-    b, a = signal.butter(order, [low, high], btype='band')
+    sos = signal.butter(order, [low, high], btype='band', output='sos')
+    filtered = signal.sosfiltfilt(sos, data)
     
-    # Apply the filter
-    filtered_data = signal.filtfilt(b, a, data)
-    
-    return filtered_data
+    return filtered
 
-# Example usage:
-# sampling_rate = 1000  # Hz (1000 samples per second)
-# filtered_data = bandpass_filter(data, sampling_rate, lowcut=0.1, highcut=5.0)
+# This function is still under implementation and doesn't work yet
+def correct_R_peak(signal: np.ndarray, peaks: np.ndarray) -> np.ndarray:
+    """
+    Fine-tune the positions of detected R peaks to the true local maxima.
+    
+    Args:
+        signal (np.ndarray): The ECG signal array
+        peaks (np.ndarray): Indices of initially detected R peaks
+        
+    Returns:
+        np.ndarray: Corrected R peak positions
+    """
+    corrected = []
+    for array_idx, peak in enumerate(peaks):
+        if array_idx == 0:
+            previous_peak = peaks[array_idx]
+            next_peak = peaks[array_idx+1]
+        
+        elif array_idx == peaks.shape[0] - 1:
+            previous_peak = peaks[array_idx - 1]
+            next_peak = peaks[array_idx]
+        
+        else:
+            previous_peak = peaks[array_idx - 1]
+            next_peak = peaks[array_idx + 1]
+        
+        print(f"previous peak: {previous_peak}\nnext peak: {next_peak}")
+        
+        corrected.append(np.argmax(signal[previous_peak:next_peak]))
+    return peaks
+
+def detect_R_peak(ecg_signal: np.ndarray, fs: float) -> np.ndarray:
+    """Automatically detect and readjust R peaks of the ECG signal.
+
+    Args:
+        ecg_signal (np.ndarray): Should be a filtered ECG signal to remove
+            fMRI artifacts
+        fs (float): Sampling frequency
+    
+    Returns:
+        np.ndarray: The index when the peaks occur
+    """
+    detector = Detectors(fs)
+    r_peaks_init = np.array(detector.hamilton_detector(ecg_signal))
+    r_peaks = correct_R_peak(ecg_signal, r_peaks_init)
+    
+    return r_peaks
 
 # %%
+def extract_eyetracking_data(eyelink_filename: os.PathLike) -> dict:
+    """Extract the raw data of the eyetracking system and convert into a dict.
+
+    Args:
+        eyelink_filename (os.PathLike): The filename that should contain:
+            'acq-eyelink_recording-samples'.
+
+    Returns:
+        dict: The formatted dictionary that should contains the following keys:
+            'time', 'feature', 'labels', 'feature_info', 'mask'. For now the
+            mask is set to True because I need to see with Nicole how to
+            process the eyetracking data better.
+    """
+    raw_dataframe = pd.read_csv(eyelink_filename, header = None, sep="\t")
+    
