@@ -1,13 +1,6 @@
-#%%
-import bids_explorer.architecture.architecture as arch
-import scipy.stats
-architecture = arch.BidsArchitecture(root = "/Users/samuel/Downloads/PHYSIO_BIDS")
-
-
-# %%
 import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
+from typing import Optional
 import scipy
 from scipy.stats import kurtosis, entropy
 from scipy.signal import welch
@@ -15,32 +8,7 @@ import os
 from ecgdetectors import Detectors
 from pathlib import Path
 from scipy import signal
-#%%
 
-df = pd.read_csv("/Users/samuel/Desktop/PHYSIO_BIDS/sub-02/ses-01Baby/func/sub-02_ses-01Baby_task-ActiveHighVid_run-1_acq-eyelink_recording-samples_physio.tsv.gz", sep = "\t", header = None)
-#%%
-def mask_pupil_dilation(pupil_data: np.ndarray, threshold: int = 50):
-    derivative = np.diff(pupil_data, prepend = pupil_data[0])
-    mask_edges = abs(derivative) > threshold
-    mask_missing_data = derivative == 0
-    return np.logical_or(mask_edges, mask_missing_data)
-
-def zscore_clean(pupil_data: np.ndarray, threshold: int = 3):
-    zscore = scipy.stats.zscore(pupil_data)
-    return abs(zscore) > threshold
-
-derivative_mask = mask_pupil_dilation(df[3].values)
-zscore_mask = zscore_clean(df[3].values)
-mask = np.logical_or(derivative_mask, zscore_mask)
-df.loc[mask,3] = np.nan
-plt.plot(df[0].values, df[3].values)
-
-
-# %%
-df = pd.read_csv("/Users/samuel/Desktop/PHYSIO_BIDS/sub-02/ses-01Baby/func/sub-02_ses-01Baby_task-ActiveHighVid_run-1_acq-biopac_recording-samples_physio.tsv.gz", sep = "\t", header = None)
-# %%
-df = pd.read_csv("/Users/samuel/Desktop/PHYSIO_BIDS/sub-02/ses-01Baby/func/sub-02_ses-01Baby_task-ActiveHighVid_run-1_acq-eyelink_recording-events_physio.tsv.gz", header = None, sep = "\t")
-# %%
 def extract_eyelink_events(
     eyelink_filename: os.PathLike
     ) -> pd.DataFrame:
@@ -62,7 +30,13 @@ def extract_eyelink_events(
     cropped_df.reset_index(inplace = True)
     return cropped_df[["time_ms","event_name"]]
 
-def filter_signal(data: np.ndarray, fs: float, lowcut: float = 0.5, highcut: float = 40.0, order: int = 5) -> np.ndarray:
+def filter_signal(
+    data: np.ndarray,
+    fs: float,
+    order: int = 5,
+    lowcut: Optional[float] = None,
+    highcut: Optional[float] = None
+    ) -> np.ndarray:
     """
     Apply a bandpass filter to ECG signal data using second-order sections.
     
@@ -77,18 +51,19 @@ def filter_signal(data: np.ndarray, fs: float, lowcut: float = 0.5, highcut: flo
         np.ndarray: Filtered ECG signal
     """
     nyquist = 0.5 * fs
-
     
     if lowcut is None:
         kwargs = {
             "btype": "low",
             "Wn": highcut/ nyquist
         }
+
     elif highcut is None:
         kwargs = {
             "btype": "high",
             "Wn": lowcut/nyquist
         }
+
     elif lowcut is not None and lowcut > 0 and highcut is not None:
         kwargs = {
             "btype": "band",
@@ -97,8 +72,9 @@ def filter_signal(data: np.ndarray, fs: float, lowcut: float = 0.5, highcut: flo
         
     else:
         raise ValueError(
-            "lowcut and highcut must be None or non zero float got instead:\n"/
-            f"\tlowcut type: {type(lowcut)}\n\thighcut type: {type(highcut)}"
+            "lowcut and highcut must be None or non zero float got instead:\n"\
+            f"\tlowcut type: {type(lowcut)}\n"\
+            f"\thighcut type: {type(highcut)}"
         )
     sos = signal.butter(order, output='sos', **kwargs)
     filtered = signal.sosfiltfilt(sos, data)
@@ -154,7 +130,7 @@ def detect_R_peak(ecg_signal: np.ndarray, fs: float) -> np.ndarray:
     return r_peaks
 
 # %%
-def extract_eyetracking_data(eyelink_filename: os.PathLike) -> dict:
+def extract_eyetracking_data(data: pd.DataFrame) -> dict:
     """Extract the raw data of the eyetracking system and convert into a dict.
 
     Args:
@@ -167,10 +143,9 @@ def extract_eyetracking_data(eyelink_filename: os.PathLike) -> dict:
             mask is set to True because I need to see with Nicole how to
             process the eyetracking data better.
     """
-    raw_dataframe = pd.read_csv(eyelink_filename, header = None, sep="\t")
     # I need to skip this function for now. Like wtf eyetracking events and
-    # eyetracking samples are not even synchronized... How can we do anything
-    # with this BS.
+    # eyetracking samples are not even synchronized...
+
 def extract_and_process_eda(data: pd.DataFrame) -> dict:
     """Extract and process electrodermal activity.
     
@@ -247,8 +222,8 @@ def extract_and_process_ppg(data: pd.DataFrame) -> dict:
     mask = detect_motion_artifacts(
         ppg_signal=data[2].values,
         fs = 1000,
-        kurtosis = 3, 
-        entropy = 0.5
+        kurtosis_threshold = 3, 
+        entropy_threshold = 0.5
         )
     return {
         "time": time,
@@ -257,44 +232,3 @@ def extract_and_process_ppg(data: pd.DataFrame) -> dict:
         "maks": mask.astype(bool),
         "feature_info": "Photoplethysmography"
     }
-    
-def plot_ppg_with_artifacts(ppg_signal, mask, fs):
-    time_axis = np.arange(len(ppg_signal)) / fs
-
-    fig, ax = plt.subplots(figsize=(15, 5))
-
-    ax.plot(
-        time_axis, 
-        ppg_signal,
-        color='blue', 
-        label='PPG Signal'
-        )
-    ax.scatter(
-        time_axis[~mask.astype(bool)], 
-        np.ones_like(ppg_signal[~mask.astype(bool)])*0.04,
-        color='red', 
-        marker="o",
-        label='Bad Segment'
-        )
-    ax.set_title('PPG Signal with Detected Motion Artifacts')
-    ax.set_xlabel('Time (s)')
-    ax.set_ylabel('PPG Amplitude')
-    ax.set_xlim(300,400)
-
-
-    ax.legend()
-    plt.tight_layout()
-    plt.show()
-    
-#filtered = filter_signal(df[2].values, 1000, lowcut=None, highcut = 10)
-mask = detect_motion_artifacts(
-    df[2].values, 
-    1000, 
-    kurtosis_threshold=3,
-    entropy_threshold=0.5
-    )
-plot_ppg_with_artifacts(df[2].values, mask, 1000)
-
-    
-
-# %%
