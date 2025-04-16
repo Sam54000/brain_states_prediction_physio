@@ -7,6 +7,7 @@ architecture = arch.BidsArchitecture(root = "/Users/samuel/Downloads/PHYSIO_BIDS
 # %%
 import pandas as pd
 import matplotlib.pyplot as plt
+from src import utils
 import numpy as np
 from typing import Optional
 import scipy
@@ -16,9 +17,10 @@ import os
 from ecgdetectors import Detectors
 from pathlib import Path
 from scipy import signal
+from viz import plotting
+from labs import lab_explore
 #%%
 
-df = pd.read_csv("/Users/samuel/Desktop/PHYSIO_BIDS/sub-02/ses-01Baby/func/sub-02_ses-01Baby_task-ActiveHighVid_run-1_acq-eyelink_recording-samples_physio.tsv.gz", sep = "\t", header = None)
 #%%
 def mask_pupil_dilation(pupil_data: np.ndarray, threshold: int = 50):
     derivative = np.diff(pupil_data, prepend = pupil_data[0])
@@ -40,18 +42,25 @@ plt.plot(df[0].values, df[3].values)
 # %%
 df = pd.read_csv("/Users/samuel/Desktop/PHYSIO_BIDS/sub-02/ses-01Baby/func/sub-02_ses-01Baby_task-ActiveHighVid_run-1_acq-biopac_recording-samples_physio.tsv.gz", sep = "\t", header = None)
 # %%
-df = pd.read_csv("/Users/samuel/Desktop/PHYSIO_BIDS/sub-02/ses-01Baby/func/sub-02_ses-01Baby_task-ActiveHighVid_run-1_acq-eyelink_recording-events_physio.tsv.gz", header = None, sep = "\t")
+df_samples = pd.read_csv("/Users/samuel/Desktop/PHYSIO_BIDS/sub-01/ses-03Beauty/func/sub-01_ses-03Beauty_task-ActiveHighVid_run-1_acq-eyelink_recording-samples_physio.tsv.gz", sep = "\t", header = None)
+df_events = pd.read_csv("/Users/samuel/Desktop/PHYSIO_BIDS/sub-01/ses-03Beauty/func/sub-01_ses-03Beauty_task-ActiveHighVid_run-1_acq-eyelink_recording-events_physio.tsv.gz", header = None, sep = "\t")
 # %%
-#filtered = filter_signal(df[2].values, 1000, lowcut=None, highcut = 10)
-mask = detect_motion_artifacts(
-    df[2].values, 
-    1000, 
-    kurtosis_threshold=3,
-    entropy_threshold=0.5
-    )
-plot_ppg_with_artifacts(df[2].values, mask, 1000)
-
-
+events = utils.extract_eyelink_events(df_events)
+#%%
+i = 3
+for i in range(5):
+    fig, ax = plt.subplots()
+    ax.plot(df_samples[0], [0]*df_samples[0].values.shape[0], "bo", label = "samples from samples file")
+    ax.axvline(events["time_ms"].values[i],color = "red", label = "event from events file")
+    ax.text(events["time_ms"].values[i]+0.1, 0.04, events["event_name"].values[i], color = "red") 
+    ax.set_xlim(events["time_ms"].values[i]-30,events["time_ms"].values[i]+30)
+    ax.spines[["top", "right", "left"]].set_visible(False)
+    ax.set_yticks([])
+    ax.set_xlabel("Time (ms)")
+    ax.legend()
+    
+    plt.savefig(Path().cwd().parent / f"figs/event_displacement_example_{i+1}.png")
+#%%
 # TODO:
 # [ ] Check if the time in the eyetracking samples is the same as the time in
 # [ ] Write ECG exctractor function
