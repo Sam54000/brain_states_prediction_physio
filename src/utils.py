@@ -29,7 +29,6 @@ def extract_eyelink_events(data: pd.DataFrame) -> pd.DataFrame:
     cropped_df["time_ms"] = cropped_df["time_ms"].astype(int)
     return cropped_df[["time_ms","event_name"]]
 
-
 def filter_signal(
     signal: np.ndarray,
     fs: float,
@@ -81,57 +80,16 @@ def filter_signal(
     
     return filtered
 
-# This function is still under implementation and doesn't work yet
-def correct_R_peak(signal: np.ndarray, peaks: np.ndarray) -> np.ndarray:
-    """
-    Fine-tune the positions of detected R peaks to the true local maxima.
-    
-    Args:
-        signal (np.ndarray): The ECG signal array
-        peaks (np.ndarray): Indices of initially detected R peaks
-        
-    Returns:
-        np.ndarray: Corrected R peak positions
-    """
-    corrected = []
-    for array_idx, peak in enumerate(peaks):
-        if array_idx == 0:
-            previous_peak = peaks[array_idx]
-            next_peak = peaks[array_idx+1]
-        
-        elif array_idx == peaks.shape[0] - 1:
-            previous_peak = peaks[array_idx - 1]
-            next_peak = peaks[array_idx]
-        
+def catch_error(x):
+    try:
+        if isinstance(x, str):
+            return float(x.strip())
         else:
-            previous_peak = peaks[array_idx - 1]
-            next_peak = peaks[array_idx + 1]
-        
-        print(f"previous peak: {previous_peak}\nnext peak: {next_peak}")
-        
-        corrected.append(np.argmax(signal[previous_peak:next_peak]))
-    return peaks
+            return x
+    except:
+        return np.nan
 
-# The detector is heavily biased due to the scanner artifacts.
-# A solution to count heartbeat would be to use the PPG signal instead.
-def detect_R_peak(ecg_signal: np.ndarray, fs: float) -> np.ndarray:
-    """Automatically detect and readjust R peaks of the ECG signal.
-
-    Args:
-        ecg_signal (np.ndarray): Should be a filtered ECG signal to remove
-            fMRI artifacts
-        fs (float): Sampling frequency
-    
-    Returns:
-        np.ndarray: The index when the peaks occur
-    """
-    detector = Detectors(fs)
-    r_peaks_init = np.array(detector.hamilton_detector(ecg_signal))
-    r_peaks = correct_R_peak(ecg_signal, r_peaks_init)
-    
-    return r_peaks
-
-def extract_eyetracking_data(data: pd.DataFrame) -> dict:
+def extract_and_process_eyetracking(data: pd.DataFrame) -> dict:
     """Extract the raw data of the eyetracking system and convert into a dict.
 
     Args:
@@ -144,9 +102,32 @@ def extract_eyetracking_data(data: pd.DataFrame) -> dict:
             mask is set to True because I need to see with Nicole how to
             process the eyetracking data better.
     """
-    # I need to skip this function for now. Like wtf eyetracking events and
-    # eyetracking samples are not even synchronized...
-    
+    for col in [1,2,3]:
+        data[col] = data[col].apply(catch_error)
+    first_derivative = np.diff(data[3].values.astype(float), prepend = 0)
+    second_derivative = np.diff(data[3].values.astype(float), n = 2, prepend = [0,0])
+    mask = np.ones_like(data[0].values, dtype = bool)
+    mask[np.abs(first_derivative) > 10] = False
+    mask[data[3].values.astype(float) < 100] = False
+
+    return {
+        "time": data[0].values.astype(int),
+        "feature": np.stack([
+            data[1].values.astype(float),
+            data[2].values.astype(float),
+            data[3].values.astype(float),
+            first_derivative,
+            second_derivative], 
+           axis = 0),
+        "labels": [
+            "X",
+            "Y",
+            "pupil_dilation", 
+            "pupil_first_derivative",
+            "pupil_second_derivative"],
+        "mask": mask,
+        "feature_info": "Eyetracking data"
+    }
 
 def extract_and_process_eda(data: pd.DataFrame) -> dict:
     """Extract and process electrodermal activity.
@@ -160,12 +141,17 @@ def extract_and_process_eda(data: pd.DataFrame) -> dict:
     Returns:
         dict
     """
-    eda = filter_signal(data[1].values, fs = 1000,lowcut=None, highcut=1)
-    return {"time": data[0].values,
-            "feature": eda[np.newaxis,:],
-            "labels": ["eda"],
-            "mask": np.ones_like(data[0].values,dtype=bool),
-            "feature_info": "Electrodermal Activity low-pass filtered at 1Hz"
+    signals, _ = nk.eda_process(data[1].values, sampling_rate=1000)
+    temp_dictionary = signals.to_dict(orient="list")
+    feature = np.stack(list(temp_dictionary.values()), axis=0)
+    labels = list(temp_dictionary.keys())
+    
+    return {
+        "time": data[0].values,
+        "feature": feature,
+        "labels": labels,
+        "mask": np.ones_like(data[0].values, dtype=bool),
+        "feature_info": "Respiratory signal"
     }
 
 def detect_motion_artifacts(
@@ -210,19 +196,23 @@ def detect_motion_artifacts(
         segment = signal[start:end]
 
         seg_kurtosis = kurtosis(segment)
-
-        # Compute power spectral density
         f, Pxx = welch(segment, fs=fs)
         Pxx_norm = Pxx / np.sum(Pxx)
         seg_entropy = entropy(Pxx_norm)
-
-        # Detect artifacts based on thresholds
         if seg_kurtosis > kurtosis_threshold or seg_entropy < entropy_threshold:
             mask[start:end] = 0
 
     return mask
 
 def extract_and_process_ppg(data: pd.DataFrame) -> dict:
+    """
+
+    Args:
+        data (pd.DataFrame): Should be from biopac samples
+
+    Returns:
+        dict:
+    """
     signal = filter_signal(
         data[2].values,
         fs = 1000,
@@ -230,6 +220,10 @@ def extract_and_process_ppg(data: pd.DataFrame) -> dict:
         highcut = 10
     )
     time = data[0].values
+    signals, _ = nk.ppg_process(signal, sampling_rate=1000)
+    temp_dictionary = signals.to_dict(orient="list")
+    feature = np.stack(list(temp_dictionary.values()), axis=0)
+    labels = list(temp_dictionary.keys())
     mask = detect_motion_artifacts(
         signal=data[2].values, # For some reason the detector works better on 
                                # non filtered data         
@@ -240,13 +234,13 @@ def extract_and_process_ppg(data: pd.DataFrame) -> dict:
 
     return {
         "time": time,
-        "feature": signal[np.newaxis,:],
-        "labels": ["ppg"],
-        "maks": mask.astype(bool),
+        "feature": feature,
+        "labels": labels,
+        "mask": mask.astype(bool),
         "feature_info": "Photoplethysmography"
     }
 
-def extract_and_process_resp(data: pd.DataFrame) -> dict:
+def extract_and_process_rsp(data: pd.DataFrame) -> dict:
     """Extract and process respiratory signal.
     
     The function uses the neurokit2 library to process the respiratory signal.
@@ -286,4 +280,71 @@ def extract_and_process_resp(data: pd.DataFrame) -> dict:
         "mask": np.ones_like(data[0].values, dtype=bool),
         "feature_info": "Respiratory signal"
     }
-# %%
+
+def extract_and_process_ecg(data: pd.DataFrame) -> dict:
+    """Extract and process electrocardiogram signal.
+    
+    The function uses the neurokit2 library to process the ECG signal.
+    The feature extracted are:
+    
+    - ECG_Raw: The raw signal.
+    - ECG_Clean: The cleaned signal.
+    - ECG_Rate: Heart rate interpolated between R-peaks.
+    - ECG_Quality: The quality of the cleaned signal.
+    - ECG_R_Peaks: The R-peaks marked as “1” in a list of zeros.
+    - ECG_R_Onsets: The R-onsets marked as “1” in a list of zeros.
+    - ECG_R_Offsets: The R-offsets marked as “1” in a list of zeros.
+    - ECG_P_Peaks: The P-peaks marked as “1” in a list of zeros.
+    - ECG_P_Onsets: The P-onsets marked as “1” in a list of zeros.
+    - ECG_P_Offsets: The P-offsets marked as “1” in a list of zeros.
+    - ECG_Q_Peaks: The Q-peaks marked as “1” in a list of zeros.
+    - ECG_S_Peaks: The S-peaks marked as “1” in a list of zeros.
+    - ECG_T_Peaks: The T-peaks marked as “1” in a list of zeros.
+    - ECG_T_Onsets: The T-onsets marked as “1” in a list of zeros.
+    - ECG_T_Offsets: The T-offsets marked as “1” in a list of zeros.
+    - ECG_Phase_Atrial: Cardiac phase, marked by “1” for systole and “0” for
+        diastole.
+    - ECG_Phase_Completion_Atrial: Cardiac phase (atrial) completion,
+        expressed in percentage (from 0 to 1), representing the stage of 
+            the current cardiac phase.
+    - ECG_Phase_Completion_Ventricular: Cardiac phase (ventricular) completion,
+        expressed in percentage (from 0 to 1), representing the stage of the
+        current cardiac phase.
+    """
+    signals, _ = nk.ecg_process(data[4].values, sampling_rate=1000)
+    temp_dictionary = signals.to_dict(orient="list")
+    feature = np.stack(list(temp_dictionary.values()), axis=0)
+    labels = list(temp_dictionary.keys())
+    
+    return {
+        "time": data[0].values,
+        "feature": feature,
+        "labels": labels,
+        "mask": np.ones_like(data[0].values, dtype=bool),
+        "feature_info": "Electrocardiogram"
+    }
+
+def crop_eyetracking(
+    eyetracking_dict: dict,
+    eyetracking_events: pd.DataFrame
+) -> dict:
+    """Crop the eyetracking data to get only data when the scanner is on.
+
+    
+    Args:
+        eyetracking_dict (dict): The formated eyetracking data.
+        eyetracking_events (pd.DataFrame): The events extracted. This should
+            be the output from the function `extract_eyeling_events`.
+
+    Returns:
+        dict: The croped data
+    """
+    start_event = eyetracking_events["time_ms"].values[0]
+    end_event = eyetracking_events["time_ms"].values[-2]
+    idx_start = np.argmin(abs(eyetracking_dict["time"] - start_event))
+    idx_stop = np.argmin(abs(eyetracking_dict["time"] - end_event))
+    eyetracking_dict["time"] = eyetracking_dict["time"][idx_start:idx_stop]
+    eyetracking_dict["feature"] = eyetracking_dict["feature"][:,idx_start:idx_stop]
+    eyetracking_dict["mask"] = eyetracking_dict["mask"][idx_start:idx_stop]
+
+    return eyetracking_dict

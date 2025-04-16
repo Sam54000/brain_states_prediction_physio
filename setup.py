@@ -9,7 +9,7 @@ setup(
         "numpy",
         "matplotlib",
         "scipy",
-        "ecgdetectors",
         "bids_explorer",
+        "neurokit2",
     ],
 ) 

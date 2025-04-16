@@ -2,3 +2,4 @@
 /.mypy_cache
 *.egg-info/
 ecg-detectors/
+__pycache__/
