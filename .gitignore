@@ -3,3 +3,5 @@
 *.egg-info/
 ecg-detectors/
 __pycache__/
+nohup.out
+

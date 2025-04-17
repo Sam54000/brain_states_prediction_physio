@@ -3,6 +3,9 @@ import pandas as pd
 import numpy as np
 from typing import Optional
 import scipy
+import matplotlib
+import matplotlib.pyplot as plt
+matplotlib.use("Agg")
 from scipy.stats import kurtosis, entropy
 from scipy.signal import welch
 import os
@@ -24,10 +27,10 @@ def extract_eyelink_events(data: pd.DataFrame) -> pd.DataFrame:
     message_df.reset_index(inplace = True)
     scanner_start_idx = message_df[message_df[2] == "SCANNER_START"].index[0]
     cropped_df = message_df.iloc[scanner_start_idx:]
-    cropped_df.rename(columns={1:"time_ms",2: "event_name"}, inplace=True)
+    cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
     cropped_df.reset_index(inplace = True)
-    cropped_df["time_ms"] = cropped_df["time_ms"].astype(int)
-    return cropped_df[["time_ms","event_name"]]
+    cropped_df["time"] = cropped_df["time"].astype(int)/1000
+    return cropped_df[["time","event_name"]]
 
 def filter_signal(
     signal: np.ndarray,
@@ -111,7 +114,7 @@ def extract_and_process_eyetracking(data: pd.DataFrame) -> dict:
     mask[data[3].values.astype(float) < 100] = False
 
     return {
-        "time": data[0].values.astype(int),
+        "time": data[0].values.astype(int)/1000,
         "feature": np.stack([
             data[1].values.astype(float),
             data[2].values.astype(float),
@@ -129,7 +132,11 @@ def extract_and_process_eyetracking(data: pd.DataFrame) -> dict:
         "feature_info": "Eyetracking data"
     }
 
-def extract_and_process_eda(data: pd.DataFrame) -> dict:
+def extract_and_process_eda(
+    data: pd.DataFrame,
+    plot: bool = False,
+    saving_filename: Optional[os.PathLike] = None
+    ) -> dict:
     """Extract and process electrodermal activity.
     
     The process involve filtering the data with a low-pass filter at 1Hz as 
@@ -141,17 +148,23 @@ def extract_and_process_eda(data: pd.DataFrame) -> dict:
     Returns:
         dict
     """
-    signals, _ = nk.eda_process(data[1].values, sampling_rate=1000)
+    signals, info = nk.eda_process(data[1].values, sampling_rate=1000)
     temp_dictionary = signals.to_dict(orient="list")
     feature = np.stack(list(temp_dictionary.values()), axis=0)
     labels = list(temp_dictionary.keys())
+    if plot:
+        nk.eda_plot(signals, info)
+        fig = plt.gcf() 
+        fig.set_size_inches(10, 12, forward=True)
+        if saving_filename is not None:
+            fig.savefig(saving_filename)
     
-    return {
+    return fig, {
         "time": data[0].values,
         "feature": feature,
         "labels": labels,
         "mask": np.ones_like(data[0].values, dtype=bool),
-        "feature_info": "Respiratory signal"
+        "feature_info": "Respiratory signal",
     }
 
 def detect_motion_artifacts(
@@ -204,7 +217,11 @@ def detect_motion_artifacts(
 
     return mask
 
-def extract_and_process_ppg(data: pd.DataFrame) -> dict:
+def extract_and_process_ppg(
+    data: pd.DataFrame,
+    plot: bool = False,
+    saving_filename: Optional[os.PathLike] = None
+    ) -> dict:
     """
 
     Args:
@@ -220,7 +237,7 @@ def extract_and_process_ppg(data: pd.DataFrame) -> dict:
         highcut = 10
     )
     time = data[0].values
-    signals, _ = nk.ppg_process(signal, sampling_rate=1000)
+    signals, info= nk.ppg_process(signal, sampling_rate=1000)
     temp_dictionary = signals.to_dict(orient="list")
     feature = np.stack(list(temp_dictionary.values()), axis=0)
     labels = list(temp_dictionary.keys())
@@ -231,16 +248,26 @@ def extract_and_process_ppg(data: pd.DataFrame) -> dict:
         kurtosis_threshold = 3, 
         entropy_threshold = 0.5
         )
-
-    return {
+    if plot:
+        nk.ppg_plot(signals, info)
+        fig = plt.gcf() 
+        fig.set_size_inches(12, 10, forward=True)
+        if saving_filename is not None:
+            fig.savefig(saving_filename)
+    return fig, {
         "time": time,
         "feature": feature,
         "labels": labels,
         "mask": mask.astype(bool),
-        "feature_info": "Photoplethysmography"
+        "feature_info": "Photoplethysmography",
+        "quality": {"mean": signals["PPG_Quality"].mean(), "std": signals["PPG_Quality"].std()}
     }
 
-def extract_and_process_rsp(data: pd.DataFrame) -> dict:
+def extract_and_process_rsp(
+    data: pd.DataFrame,
+    plot: bool = False,
+    saving_filename: Optional[os.PathLike] = None
+    ) -> dict:
     """Extract and process respiratory signal.
     
     The function uses the neurokit2 library to process the respiratory signal.
@@ -268,20 +295,36 @@ def extract_and_process_rsp(data: pd.DataFrame) -> dict:
     Returns:
         dict
     """
-    signals, _ = nk.rsp_process(data[3].values, sampling_rate=1000)
+    sig = filter_signal(
+        data[3].values,
+        fs = 1000,
+        lowcut = None,
+        highcut = 4
+    )
+    signals, info = nk.rsp_process(sig, sampling_rate=1000)
     temp_dictionary = signals.to_dict(orient="list")
     feature = np.stack(list(temp_dictionary.values()), axis=0)
     labels = list(temp_dictionary.keys())
-    
-    return {
+    if plot:
+        nk.rsp_plot(signals, info)
+        fig = plt.gcf() 
+        fig.set_size_inches(10, 12, forward=True)
+        if saving_filename is not None:
+            fig.savefig(saving_filename)
+    return fig, {
         "time": data[0].values,
         "feature": feature,
         "labels": labels,
         "mask": np.ones_like(data[0].values, dtype=bool),
-        "feature_info": "Respiratory signal"
+        "feature_info": "Respiratory signal",
+        "quality": {"mean": signals["RSP_Rate"].mean(), "std": signals["RSP_Rate"].std()}
     }
 
-def extract_and_process_ecg(data: pd.DataFrame) -> dict:
+def extract_and_process_ecg(
+    data: pd.DataFrame,
+    plot: bool = False,
+    saving_filename: Optional[os.PathLike] = None
+    ) -> dict:
     """Extract and process electrocardiogram signal.
     
     The function uses the neurokit2 library to process the ECG signal.
@@ -311,17 +354,30 @@ def extract_and_process_ecg(data: pd.DataFrame) -> dict:
         expressed in percentage (from 0 to 1), representing the stage of the
         current cardiac phase.
     """
-    signals, _ = nk.ecg_process(data[4].values, sampling_rate=1000)
+    sig = filter_signal(
+        data[4].values,
+        fs = 1000,
+        lowcut = 0.5,
+        highcut = 10,
+        order = 10
+    )
+    signals, info = nk.ecg_process(sig, sampling_rate=1000)
     temp_dictionary = signals.to_dict(orient="list")
     feature = np.stack(list(temp_dictionary.values()), axis=0)
     labels = list(temp_dictionary.keys())
-    
-    return {
+    if plot:
+        nk.ecg_plot(signals, info)
+        fig = plt.gcf() 
+        fig.set_size_inches(12, 10, forward=True)
+        if saving_filename is not None:
+            fig.savefig(saving_filename)
+    return fig, {
         "time": data[0].values,
         "feature": feature,
         "labels": labels,
         "mask": np.ones_like(data[0].values, dtype=bool),
-        "feature_info": "Electrocardiogram"
+        "feature_info": f"Electrocardiogram",
+        "quality": {"mean": signals["ECG_Quality"].mean(), "std": signals["ECG_Quality"].std()}
     }
 
 def crop_eyetracking(
@@ -339,12 +395,14 @@ def crop_eyetracking(
     Returns:
         dict: The croped data
     """
-    start_event = eyetracking_events["time_ms"].values[0]
-    end_event = eyetracking_events["time_ms"].values[-2]
+    start_event = eyetracking_events["time"].values[0]
+    end_event = eyetracking_events["time"].values[-2]
     idx_start = np.argmin(abs(eyetracking_dict["time"] - start_event))
     idx_stop = np.argmin(abs(eyetracking_dict["time"] - end_event))
     eyetracking_dict["time"] = eyetracking_dict["time"][idx_start:idx_stop]
     eyetracking_dict["feature"] = eyetracking_dict["feature"][:,idx_start:idx_stop]
     eyetracking_dict["mask"] = eyetracking_dict["mask"][idx_start:idx_stop]
+    eyetracking_dict["time"] = eyetracking_dict["time"] - eyetracking_dict["time"][0]
+    eyetracking_events["time"] = eyetracking_events["time"] - eyetracking_events["time"][0]
 
-    return eyetracking_dict
+    return eyetracking_dict, eyetracking_events.to_dict(orient = "list")
