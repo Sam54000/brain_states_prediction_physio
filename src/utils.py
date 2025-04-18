@@ -254,14 +254,14 @@ def extract_and_process_ppg(
         fig.set_size_inches(12, 10, forward=True)
         if saving_filename is not None:
             fig.savefig(saving_filename)
-    return fig, {
+    return {
         "time": time,
         "feature": feature,
         "labels": labels,
         "mask": mask.astype(bool),
         "feature_info": "Photoplethysmography",
         "quality": {"mean": signals["PPG_Quality"].mean(), "std": signals["PPG_Quality"].std()}
-    }
+    }, signals, info
 
 def extract_and_process_rsp(
     data: pd.DataFrame,
@@ -311,14 +311,14 @@ def extract_and_process_rsp(
         fig.set_size_inches(10, 12, forward=True)
         if saving_filename is not None:
             fig.savefig(saving_filename)
-    return fig, {
+    return {
         "time": data[0].values,
         "feature": feature,
         "labels": labels,
         "mask": np.ones_like(data[0].values, dtype=bool),
         "feature_info": "Respiratory signal",
         "quality": {"mean": signals["RSP_Rate"].mean(), "std": signals["RSP_Rate"].std()}
-    }
+    }, signals, info
 
 def extract_and_process_ecg(
     data: pd.DataFrame,

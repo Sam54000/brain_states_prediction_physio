@@ -24,7 +24,7 @@ def plot_results(
     title: str,
     time: Optional[np.ndarray] = [None, None],
     saving_filename: Optional[os.PathLike] = None
-):
+    ):
     raw = data_dict["feature"][index_feature,:]
     masked = raw.copy().astype(float)
     masked[~data_dict["mask"]] = np.nan
