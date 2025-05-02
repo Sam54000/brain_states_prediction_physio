@@ -6,17 +6,9 @@ import numpy as np
 from src.modalities import (
     read_biopac,
     read_eyetracking,
-    EDA,
-    ECG,
-    PPG,
-    RSP,
-    EyeTracking,
 )
-from typing import Optional
 import itertools
-import scipy
 from matplotlib.backends.backend_pdf import PdfPages
-import os
 from pathlib import Path
 import bids_explorer.architecture.architecture as arch
 
@@ -24,7 +16,7 @@ if __name__ == "__main__":
     architecture = arch.BidsArchitecture(
         root = "/Users/samuel/Desktop/PHYSIO_BIDS"
         )
-    saving_location = Path("/Volumes/LaCie/processed")
+    saving_location = Path("/Volumes/LaCie/processed_2")
     saving_location.mkdir(parents = True, exist_ok = True)
     subjects = architecture.subjects
     for subject in subjects[2:]:
@@ -42,6 +34,7 @@ if __name__ == "__main__":
             "ppg_quality": [],
             "rsp_quality": [],
             "ecg_quality": [],
+            "ecg_snr": [],
             "eda_quality": [],
             "eyetracking_quality": [],
         }
@@ -131,12 +124,15 @@ if __name__ == "__main__":
                             plt.close(ecg_fig)
                             report["ecg"].append(True)
                             report["ecg_quality"].append(biopac_data["ecg"].quality["masks_based"])
+                            report["ecg_snr"].append(biopac_data["ecg"].snr)
 
                         except Exception as e:
+                            raise e
                             report["ecg"].append(False)
                             report["ecg_quality"].append(np.nan)
 
                 except Exception as e:
+                    raise e
                     biopac = False
                     print(e)
                 report["biopac"].append(biopac)
@@ -171,6 +167,7 @@ if __name__ == "__main__":
                         plt.close(eye_fig)
 
                 except Exception as e:
+                    raise e
                     report["eyetracking"].append(False)
                     report["eyetracking_quality"].append(np.nan)
                     print(e)

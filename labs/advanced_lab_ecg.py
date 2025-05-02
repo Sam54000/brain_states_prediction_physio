@@ -6,9 +6,15 @@ detection method.
 #%%
 import numpy as np
 import matplotlib.pyplot as plt
+from src.modalities import read_biopac
 from src.utils import *
 import pandas as pd
 import bids_explorer.architecture.architecture as arch
+import pickle
+from scipy.stats import norm
+from matplotlib.patches import Rectangle
+from matplotlib.patches import ConnectionPatch
+import matplotlib.gridspec as gridspec
 
 def detect_r_peaks(signal, fs, window_size_sec=0.25, threshold_factor=0.6, buffer_size_sec=0.1):
     """
@@ -59,21 +65,7 @@ def detect_r_peaks(signal, fs, window_size_sec=0.25, threshold_factor=0.6, buffe
     r_peaks = r_peaks[np.where(np.diff(r_peaks) > buffer_size_sec * fs)[0]]
     return r_peaks
 
-architecture = arch.BidsArchitecture(root = "/Users/samuel/Desktop/PHYSIO_BIDS")
-
-random_subject = np.random.choice(architecture.subjects)
-architecture.select(subject = random_subject, acquisition = "biopac", inplace = True)
-random_session = np.random.choice(architecture.sessions)
-architecture.select(session = random_session, inplace = True)
-random_task = np.random.choice(architecture.tasks)
-architecture.select(task = random_task, inplace = True)
-files_biopac = architecture.select(acquisition = "biopac", extension = ".gz")
-
-df = pd.read_csv(files_biopac.database["filename"].values[0], compression="gzip", sep="\t", header=None)
-sig = df[4].values
-t = df[0].values
-fs = 1/(t[1]-t[0])
-
+#%%
 filtered_signal = filter_signal(sig, 
                                 fs=fs, 
                                 lowcut=1, 
@@ -228,4 +220,418 @@ plot_epochs(corrected_epochs, corrected_epoch_times, title="Corrected ECG Signal
 
 plt.tight_layout()
 plt.show()
+# %% TRYING TO FIX FALSE DETECTIONS
+from scipy.optimize import curve_fit 
+with open("/Volumes/LaCie/processed/sub-10/ses-02Beauty/ecg/sub-10_ses-02Beauty_task-PassiveLowVid_run-1_ecg.pkl", "rb") as f:
+    ecg = pickle.load(f)
+
+peaks_idx = np.where(ecg["features"][-1])[0]
+peaks_amplitudes = ecg["features"][0][peaks_idx]
+median_amplitude = np.median(peaks_amplitudes)
+if median_amplitude < 0:
+    peaks_amplitudes = -peaks_amplitudes
+    ecg["features"][0] = -ecg["features"][0]
+
+fig, ax = plt.subplots(figsize=(20, 6))
+ax.plot(ecg["time"], ecg["features"][0])
+ax.plot(ecg["time"][peaks_idx], ecg["features"][0][peaks_idx], 'ro')
+ax.set_xlim(0,120)
+ax.set_title("ECG Signal with Detected R-peaks")
+ax.set_xlabel("Time (s)")
+ax.spines[["top","right"]].set_visible(False)
+ax.set_ylabel("Amplitude (A.U)")
+plt.show()
+
+fig, ax = plt.subplots(figsize=(20, 6))
+ax.plot(ecg["time"], ecg["features"][0])
+ax.plot(ecg["time"][peaks_idx], ecg["features"][0][peaks_idx], 'ro')
+ax.set_title("ECG Signal with Detected R-peaks (entire signal)")
+ax.set_xlabel("Time (s)")
+ax.set_ylabel("Amplitude (A.U)")
+ax.spines[["top","right"]].set_visible(False)
+plt.show()
+#%%
+# Calculate median and IQR to identify main cluster
+
+Q1 = np.percentile(peaks_amplitudes, 25)
+Q3 = np.percentile(peaks_amplitudes, 75)
+IQR = Q3 - Q1
+
+# Define the main cluster using 1.5 * IQR rule
+lower_bound = Q1 - 1.525 * IQR
+upper_bound = Q3 + 2 * IQR
+#%%
+# Select only values within the main cluster
+main_cluster_mask = (peaks_amplitudes >= lower_bound) & (peaks_amplitudes <= upper_bound)
+main_cluster_values = peaks_amplitudes[main_cluster_mask]
+
+# Fit Gaussian distribution to the main cluster
+mu, std = norm.fit(main_cluster_values)
+
+# Create figure
+fig, ax = plt.subplots(figsize=(10, 6))
+
+# Plot histogram of all peak amplitudes
+n, bins, patches = ax.hist(peaks_amplitudes, bins=50, density=True, alpha=0.6, color='gray', label='All Peak Amplitudes')
+
+# Plot histogram of main cluster values
+ax.hist(main_cluster_values, bins=bins, density=True, alpha=0.6, color='blue', label='Main Cluster')
+
+# Plot fitted Gaussian
+xmin, xmax = plt.xlim()
+x = np.linspace(xmin, xmax, 100)
+p = norm.pdf(x, mu, std)
+ax.plot(x, p, 'k', linewidth=2, label=f'Fitted Gaussian (μ={mu:.2f}, σ={std:.2f})')
+
+# Calculate and plot threshold for p < 0.01
+threshold = norm.ppf(0.001, mu, std)
+ax.axvline(x=threshold, color='r', linestyle='--', label=f'p < 0.01 threshold ({threshold:.2f})')
+
+# Plot median and cluster boundaries
+ax.axvline(x=median_amplitude, color='g', linestyle='--', label=f'Median ({median_amplitude:.2f})')
+ax.axvline(x=lower_bound, color='purple', linestyle=':', label=f'Lower bound ({lower_bound:.2f})')
+ax.axvline(x=upper_bound, color='purple', linestyle=':', label=f'Upper bound ({upper_bound:.2f})')
+
+# Add labels and title
+ax.set_xlabel('Peak Amplitude')
+ax.set_ylabel('Density')
+ax.set_title('Distribution of Peak Amplitudes with Main Cluster Gaussian Fit')
+ax.legend()
+ax.grid(True, alpha=0.3)
+
+plt.tight_layout()
+plt.show()
+
+# Print statistics
+print(f"Total number of peaks: {len(peaks_amplitudes)}")
+print(f"Number of peaks in main cluster: {len(main_cluster_values)}")
+print(f"Median amplitude: {median_amplitude:.2f}")
+print(f"Main cluster - Mean: {mu:.2f}, Std: {std:.2f}")
+print(f"Threshold for p < 0.01: {threshold:.2f}")
+print(f"Number of peaks below threshold: {np.sum(peaks_amplitudes < threshold)}")
+
+# %%
+peaks = scipy.signal.find_peaks(
+    ecg["features"][0], 
+    distance = 0.5 * fs,
+    height = (lower_bound, upper_bound)
+    )
+# %%
+fig, ax = plt.subplots(figsize=(20, 6))
+ax.plot(ecg["time"], ecg["features"][0])
+ax.plot(ecg["time"][peaks[0]], ecg["features"][0][peaks[0]], 'ro')
+ax.set_xlim(0,120)
+ax.spines[["top","right"]].set_visible(False)
+ax.set_title("Re-adjusted R-peaks")
+plt.show()
+
+# %%
+# Create figure with custom layout
+fig = plt.figure(figsize=(12, 10))
+gs = gridspec.GridSpec(2, 3, height_ratios=[1, 1])
+
+# Main plot spanning all columns in first row
+ax_main = fig.add_subplot(gs[0, :])
+ax_main.plot(ecg["time"], ecg["features"][0])
+ax_main.plot(ecg["time"][peaks[0]], ecg["features"][0][peaks[0]], 'ro')
+
+# Create three zoom subplots
+zoom_duration = 20  # seconds
+zoom_samples = int(zoom_duration * fs)
+
+# Choose three different starting points for zooms (evenly spaced)
+total_duration = ecg["time"][-1] - ecg["time"][0]
+zoom_starts = [total_duration * i/4 for i in range(1, 4)]
+
+axes_zoom = []
+for i, start_time in enumerate(zoom_starts):
+    # Create subplot
+    ax_zoom = fig.add_subplot(gs[1, i])
+    axes_zoom.append(ax_zoom)
+    
+    # Find corresponding indices
+    start_idx = np.searchsorted(ecg["time"], start_time)
+    end_idx = start_idx + zoom_samples
+    
+    # Plot zoomed section
+    ax_zoom.plot(ecg["time"][start_idx:end_idx], ecg["features"][0][start_idx:end_idx])
+    mask = (ecg["time"][peaks[0]] >= ecg["time"][start_idx]) & (ecg["time"][peaks[0]] <= ecg["time"][end_idx])
+    ax_zoom.plot(ecg["time"][peaks[0][mask]], ecg["features"][0][peaks[0][mask]], 'ro')
+    
+    # Add rectangle in main plot
+    rect = Rectangle((ecg["time"][start_idx], ax_main.get_ylim()[0]),
+                    zoom_duration,
+                    ax_main.get_ylim()[1] - ax_main.get_ylim()[0],
+                    fill=False, color=f'C{i}', alpha=0.5)
+    ax_main.add_patch(rect)
+    
+    # Add connector
+    con = ConnectionPatch(
+        xyA=(ecg["time"][start_idx], ax_main.get_ylim()[0]),  # main plot point
+        xyB=(ecg["time"][start_idx], ax_zoom.get_ylim()[1]),  # zoom plot point
+        coordsA="data",
+        coordsB="data",
+        axesA=ax_main,
+        axesB=ax_zoom,
+        color=f'C{i}',
+        alpha=0.5
+    )
+    fig.add_artist(con)
+    
+    # Formatting
+    ax_zoom.set_title(f'Segment {i+1}')
+    ax_zoom.set_xlabel('Time (s)')
+    if i == 0:
+        ax_zoom.set_ylabel('Amplitude (A.U)')
+
+# Main plot formatting
+ax_main.set_title('Full ECG Signal with Detected Peaks')
+ax_main.set_xlabel('Time (s)')
+ax_main.set_ylabel('Amplitude (A.U)')
+
+plt.tight_layout()
+plt.show()
+# %%
+data = read_random_biopac_file()
+ecg = data["ecg"]
+ttl_idx = np.where(ecg.ttl)[0]
+
+# Apply adaptive gradient removal
+artifact = filter_signal(ecg.data, fs=ecg.fs, lowcut=15, highcut=None)
+cleaned_signal_adaptive = ecg.data - artifact
+filtered_signal = filter_signal(ecg.data, fs=ecg.fs, lowcut=1, highcut=10)
+# Plot the results
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(15, 10))
+
+# Plot a segment around multiple TTLs
+segment_start = ttl_idx[20] - int(ecg.fs)  # 1 second before 20th TTL
+segment_end = ttl_idx[25] + int(ecg.fs)    # 1 second after 25th TTL
+t_segment = np.arange(segment_end - segment_start) / ecg.fs
+
+ax1.plot(t_segment, ecg.data[segment_start:segment_end], 
+         label='Original', alpha=0.7)
+ax1.plot(t_segment, cleaned_signal_adaptive[segment_start:segment_end],
+         label='Adaptively Cleaned', alpha=0.7)
+ax1.plot(t_segment, filtered_signal[segment_start:segment_end],
+         label='Filtered', color = "red")
+ax1.set_title('Original vs Adaptively Cleaned Signal (Multiple TTL Windows)')
+ax1.set_xlabel('Time (s)')
+ax1.set_ylabel('Amplitude')
+ax1.legend()
+
+# Plot zoomed in to a single TTL
+example_ttl = ttl_idx[22]  # Use the 22nd TTL as example
+window_samples = int(0.2 * ecg.fs)  # Smaller window for detail
+t_window = np.arange(-window_samples, window_samples+1) / ecg.fs
+
+ax2.plot(t_window, 
+         data["ecg"].data[example_ttl-window_samples:example_ttl+window_samples+1],
+         label='Original', alpha=0.7)
+ax2.plot(t_window, 
+         cleaned_signal_adaptive[example_ttl-window_samples:example_ttl+window_samples+1],
+         label='Adaptively Cleaned', alpha=0.7)
+ax2.set_title('Original vs Adaptively Cleaned Signal (Single TTL Window)')
+ax2.set_xlabel('Time relative to TTL (s)')
+ax2.set_ylabel('Amplitude')
+ax2.legend()
+
+plt.tight_layout()
+plt.show()
+# %%
+
+def adaptive_gradient_removal(
+    signal, 
+    ttl_indices, 
+    fs, 
+    window_size=10, 
+    pre_time=0.5, 
+    post_time=0.5
+    ):
+    """
+    Perform adaptive average subtraction of gradient artifacts using a sliding window.
+    
+    Parameters:
+    -----------
+    signal : array-like
+        The ECG signal
+    ttl_indices : array-like
+        Indices of TTL triggers
+    fs : float
+        Sampling frequency in Hz
+    window_size : int
+        Number of TTLs to use for template computation
+    pre_time : float
+        Time before TTL in seconds
+    post_time : float
+        Time after TTL in seconds
+        
+    Returns:
+    --------
+    cleaned_signal : array-like
+        Signal with gradient artifacts removed adaptively
+    """
+    cleaned_signal = signal.copy()
+    pre_samples = int(pre_time * fs)
+    post_samples = int(post_time * fs)
+    epoch_length = pre_samples + post_samples + 1
+    
+    # For each TTL
+    for i in range(len(ttl_indices)):
+        # Calculate window boundaries
+        half_window = window_size // 2
+        
+        # Handle start of recording
+        if i < half_window:
+            window_start = 0
+            window_end = min(window_size, len(ttl_indices))
+        # Handle end of recording
+        elif i >= len(ttl_indices) - half_window:
+            window_start = max(0, len(ttl_indices) - window_size)
+            window_end = len(ttl_indices)
+        # Normal case
+        else:
+            window_start = i - half_window
+            window_end = i + half_window + 1
+            
+        # Get TTLs for this window
+        window_ttls = ttl_indices[window_start:window_end]
+        
+        # Create epochs for template calculation
+        epochs = np.zeros((len(window_ttls), epoch_length))
+        valid_epochs = 0
+        
+        for j, ttl_idx in enumerate(window_ttls):
+            if ttl_idx >= pre_samples and ttl_idx + post_samples < len(signal):
+                start_idx = ttl_idx - pre_samples
+                end_idx = ttl_idx + post_samples + 1
+                epochs[valid_epochs] = signal[start_idx:end_idx]
+                valid_epochs += 1
+        
+        # Compute template from valid epochs
+        if valid_epochs > 0:
+            template = np.mean(epochs[:valid_epochs], axis=0)
+            
+            # Subtract template from current TTL's epoch
+            current_ttl = ttl_indices[i]
+            if current_ttl >= pre_samples and current_ttl + post_samples < len(signal):
+                start_idx = current_ttl - pre_samples
+                end_idx = current_ttl + post_samples + 1
+                cleaned_signal[start_idx:end_idx] -= template
+    
+    return cleaned_signal
+
+# %%
+data = read_random_biopac_file()
+ecg = data["ecg"]
+ecg.process()
+ecg.plot()
+#%%
+fig, ax = plt.subplots(figsize=(20, 12), nrows = 4)
+ax[0].plot(ecg.time, ecg.data, alpha = 0.7, color = "gray", label = "original")
+ax[0].plot(ecg.time, ecg.cleaned_signal, label = "cleaned")
+ax[0].plot(ecg.time[ecg.r_peaks], ecg.cleaned_signal[ecg.r_peaks], "ro", label = "Detected R-peaks")
+ax[0].legend()
+ax[0].set_ylabel("Amplitude (mV)")
+ax[0].spines[["top","right"]].set_visible(False)
+ax[1].plot(ecg.time, ecg.hrv, color = "gray", linestyle = "--", label = "Interpolated Interbeat intervals")
+ax[1].plot(ecg.time[ecg.r_peaks], ecg.rr_intervals, "go", label = "Interbeat intervals")
+ax[1].set_ylabel("Interval (s)")
+ax[1].spines[["top","right"]].set_visible(False)
+ax[1].set_ylim(-1, 2)
+ax[2].plot(ecg.time, ecg.data, alpha = 0.7, color = "gray", label = "original")
+ax[2].plot(ecg.time, ecg.cleaned_signal, label = "cleaned")
+ax[2].plot(ecg.time[ecg.r_peaks], ecg.cleaned_signal[ecg.r_peaks], "ro", label = "Detected R-peaks")
+ax[2].legend()
+ax[2].set_ylabel("Amplitude (mV)")
+ax[2].spines[["top","right"]].set_visible(False)
+ax[2].set_ylim(
+    min(ecg.data[0:20000])-min(ecg.data[0:20000])*0.1, 
+    max(ecg.data[0:20000])+max(ecg.data[0:20000])*0.1)
+ax[2].set_xlim(0, 10)
+ax[3].plot(ecg.time, ecg.hrv, color = "gray", linestyle = "--", label = "interpolated HRV")
+ax[3].plot(ecg.time[ecg.r_peaks], ecg.rr_intervals, "go", label = "RR intervals")
+ax[3].set_xlabel("Time (s)")
+ax[3].set_ylabel("Interval (s)")
+ax[3].set_ylim(-1, 2)
+ax[3].spines[["top","right"]].set_visible(False)
+ax[3].set_xlim(0, 10)
+ax[3].legend()
+plt.suptitle("ECG signal and interbeat intervals before cleaning")
+plt.show()
+
+Q1 = np.percentile(ecg.rr_intervals, 25)
+Q3 = np.percentile(ecg.rr_intervals, 75)
+IQR = Q3 - Q1
+lower_bound = Q1 - 2 * IQR
+upper_bound = Q3 + 2 * IQR
+mask = (ecg.rr_intervals >= lower_bound) & (ecg.rr_intervals <= upper_bound)
+rr_intervals = ecg.rr_intervals.copy()
+rr_intervals[~mask] = np.interp(
+    ecg.time[ecg.r_peaks][~mask], 
+    ecg.time[ecg.r_peaks][mask], 
+    rr_intervals[mask]
+    )
+interpolant = scipy.interpolate.interp1d(
+    ecg.time[ecg.r_peaks],
+    rr_intervals,
+    kind="linear",
+    fill_value="extrapolate"
+)
+interpolated_rr_intervals = interpolant(ecg.time)
+
+
+fig, ax = plt.subplots(figsize=(20, 12), nrows = 4)
+ax[0].plot(ecg.time, ecg.data, alpha = 0.7, color = "gray", label = "original")
+ax[0].plot(ecg.time, ecg.cleaned_signal, label = "cleaned")
+ax[0].plot(ecg.time[ecg.r_peaks], ecg.cleaned_signal[ecg.r_peaks], "ro", label = "Detected R-peaks")
+ax[0].legend()
+ax[0].set_ylabel("Amplitude (mV)")
+ax[0].spines[["top","right"]].set_visible(False)
+ax[1].plot(ecg.time, interpolated_rr_intervals, color = "gray", linestyle = "--", label = "Interpolated Interbeat intervals")
+ax[1].plot(ecg.time[ecg.r_peaks], rr_intervals, "go", label = "Interbeat intervals")
+ax[1].set_ylabel("Interval (s)")
+ax[1].spines[["top","right"]].set_visible(False)
+ax[1].set_ylim(-1, 2)
+ax[2].plot(ecg.time, ecg.data, alpha = 0.7, color = "gray", label = "original")
+ax[2].plot(ecg.time, ecg.cleaned_signal, label = "cleaned")
+ax[2].plot(ecg.time[ecg.r_peaks], ecg.cleaned_signal[ecg.r_peaks], "ro", label = "Detected R-peaks")
+ax[2].legend()
+ax[2].set_ylabel("Amplitude (mV)")
+ax[2].spines[["top","right"]].set_visible(False)
+ax[2].set_ylim(
+    min(ecg.data[0:20000])-min(ecg.data[0:20000])*0.1, 
+    max(ecg.data[0:20000])+max(ecg.data[0:20000])*0.1)
+ax[2].set_xlim(0, 10)
+ax[3].plot(ecg.time, interpolated_rr_intervals, color = "gray", linestyle = "--", label = "interpolated HRV")
+ax[3].plot(ecg.time[ecg.r_peaks], rr_intervals, "go", label = "RR intervals")
+ax[3].set_xlabel("Time (s)")
+ax[3].set_ylabel("Interval (s)")
+ax[3].spines[["top","right"]].set_visible(False)
+ax[3].set_ylim(-1, 2)
+ax[3].set_xlim(0, 10)
+ax[3].legend()
+plt.suptitle("ECG signal and interbeat intervals after cleaning")
+plt.show()
+# %%
+# TODO: Reject recording that have a std lower than a typical ECG. Adding STD
+# in report and flagging bad recordings.
+
+import numpy as np
+import matplotlib.pyplot as plt
+from src.modalities import read_biopac
+from src.utils import *
+import pandas as pd
+import bids_explorer.architecture.architecture as arch
+import pickle
+import src.modalities as modalities
+from scipy.stats import norm
+from matplotlib.patches import Rectangle
+from matplotlib.patches import ConnectionPatch
+import matplotlib.gridspec as gridspec
+data = modalities.get_random_biopac_file()
+ecg = data["ecg"]
+ecg.process()
+ax =ecg.plot()
+
+# Generate simulated ECG template using neurokit2
 # %%

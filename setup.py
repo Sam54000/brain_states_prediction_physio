@@ -6,10 +6,15 @@ setup(
     packages=find_packages(),
     install_requires=[
         "pandas",
-        "numpy",
+        "numpy>=2.0.0",
         "matplotlib",
         "scipy",
         "bids_explorer",
         "neurokit2",
+        "PyWavelets",
+        "opencv-python",
+        "typing-extensions",
+        "dataclasses",
     ],
+    python_requires=">=3.8",  # Based on typing usage and modern Python features
 ) 
