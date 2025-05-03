@@ -224,8 +224,7 @@ def detect_flat_signal(
     min_samples = int(min_duration * fs)
     for start, end in zip(starts, ends):
         if end - start >= min_samples:
-            mask[start:end] = False
-    mask = scipy.signal.convolve(mask, np.ones(int(buffer * fs)), mode="same") == 1
+            mask[int(start - buffer * fs) : int(end + buffer * fs)] = False
 
     return mask
 

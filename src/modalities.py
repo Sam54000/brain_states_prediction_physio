@@ -234,7 +234,7 @@ class EyeTracking:
             fs=fs,
             threshold=1e-3,
             min_duration=0.2,
-            buffer=0.5,
+            buffer=0.25,
         )
         
         flat_masks = np.logical_and(flat_mask, original_signal > 10)

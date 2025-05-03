@@ -11,6 +11,15 @@ import itertools
 from matplotlib.backends.backend_pdf import PdfPages
 from pathlib import Path
 import bids_explorer.architecture.architecture as arch
+import logging
+
+# Configure logging
+logging.basicConfig(
+    filename='pipeline.log',
+    filemode='a',
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
 
 if __name__ == "__main__":
     architecture = arch.BidsArchitecture(
@@ -19,7 +28,7 @@ if __name__ == "__main__":
     saving_location = Path("/Volumes/LaCie/processed_2")
     saving_location.mkdir(parents = True, exist_ok = True)
     subjects = architecture.subjects
-    for subject in subjects[2:]:
+    for subject in subjects:
         report = {
             "subject": [],
             "task": [],
@@ -56,6 +65,7 @@ if __name__ == "__main__":
                 f"task-{task}",
                 f"run-{run}"
             ]
+            logging.info(f"========= Processing {subject} {session} {task} {run} =========")
 
             saving_dir = saving_location / file_parts[0] / file_parts[1]
 
@@ -76,6 +86,7 @@ if __name__ == "__main__":
 
                 try:
                     files_biopac = sub_selection.select(acquisition = "biopac")
+                    exception_biopac = False
                     if files_biopac.database.empty:
                         biopac = False
                     else:
@@ -125,16 +136,14 @@ if __name__ == "__main__":
                             report["ecg"].append(True)
                             report["ecg_quality"].append(biopac_data["ecg"].quality["masks_based"])
                             report["ecg_snr"].append(biopac_data["ecg"].snr)
-
                         except Exception as e:
-                            raise e
                             report["ecg"].append(False)
                             report["ecg_quality"].append(np.nan)
+                            logging.exception(e)
 
                 except Exception as e:
-                    raise e
                     biopac = False
-                    print(e)
+                    logging.exception(e)
                 report["biopac"].append(biopac)
                 if not biopac:
                     report["ppg_quality"].append(np.nan)
@@ -145,9 +154,11 @@ if __name__ == "__main__":
                     report["ppg"].append(False)
                     report["rsp"].append(False)
                     report["ecg"].append(False)
+
                 # EYETRACKING ================================
                 try:
                     files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                    exception_eyetracking = False
                     if files_eyetracking.database.empty:
                         report["eyetracking"].append(False)
                     else:
@@ -167,13 +178,14 @@ if __name__ == "__main__":
                         plt.close(eye_fig)
 
                 except Exception as e:
-                    raise e
                     report["eyetracking"].append(False)
                     report["eyetracking_quality"].append(np.nan)
-                    print(e)
+                    logging.exception(e)
             pdf.close()
+        logging.info(f"======= Finished {subject} =======")
         with open(saving_location / f"sub-{subject}_report.pkl", "wb") as f:
             pickle.dump(report, f)
+        
         #report_df = pd.DataFrame(report)
         #report_df.to_csv(saving_location / f"sub-{subject}_report.csv", index = False)
 #%%
