@@ -1,0 +1,1666 @@
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/src/pipeline.py", line 179, in <module>
+    report_df = pd.DataFrame(report)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 778, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/internals/construction.py", line 503, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/internals/construction.py", line 114, in arrays_to_mgr
+    index = _extract_index(arrays)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/internals/construction.py", line 677, in _extract_index
+    raise ValueError("All arrays must be of the same length")
+ValueError: All arrays must be of the same length
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:123: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df.rename(columns={1:"time",2: "event_name"}, inplace=True)
+/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py:125: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cropped_df["time"] = cropped_df["time"].astype(int)/1000
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/src/pipeline.py", line 180, in <module>
+    report_df = pd.DataFrame(report)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 778, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/internals/construction.py", line 503, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, typ=typ, consolidate=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/internals/construction.py", line 114, in arrays_to_mgr
+    index = _extract_index(arrays)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/internals/construction.py", line 677, in _extract_index
+    raise ValueError("All arrays must be of the same length")
+ValueError: All arrays must be of the same length

@@ -1,3 +1,4 @@
+"""This lab is to explore the data and make a draft of a pipeline."""
 #%%
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -88,7 +89,7 @@ else:
     events = extract_eyelink_events(df_eyetracking_events)
     eyetracking_dict = extract_and_process_eyetracking(df_eyetracking_samples)
     eyetracking_dict = crop_eyetracking(eyetracking_dict, events)
-    plot_results(eyetracking_dict, 2, "Eye Tracking", time = [None, None])
+    #plot_results(eyetracking_dict, 2, "Eye Tracking", time = [None, None])
 # EYETRACKING
 #%%
 plot_results(ecg_dict, 0, "ECG", time = [40, 50])

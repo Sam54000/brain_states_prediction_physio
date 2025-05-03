@@ -4,4 +4,6 @@
 ecg-detectors/
 __pycache__/
 nohup.out
+.DS_Store
 
+*.pkl
