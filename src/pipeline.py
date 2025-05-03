@@ -28,7 +28,7 @@ if __name__ == "__main__":
     saving_location = Path("/Volumes/LaCie/processed_2")
     saving_location.mkdir(parents = True, exist_ok = True)
     subjects = architecture.subjects
-    for subject in subjects:
+    for subject in subjects[:1]:
         report = {
             "subject": [],
             "task": [],
@@ -53,8 +53,8 @@ if __name__ == "__main__":
             extension = ".gz")
 
         products = list(itertools.product(
-            selection.sessions,
-            selection.tasks,
+            selection.sessions[:1],
+            selection.tasks[:1],
             ["1"]
         ))
 
@@ -66,7 +66,7 @@ if __name__ == "__main__":
                 f"run-{run}"
             ]
 
-            logging.info(f"========= Processing {subject} {session} {task} {run} =========")
+            logging.info(f"sub-{subject}_ses-{session}_task-{task}_run-{run}")
 
             saving_dir = saving_location / file_parts[0] / file_parts[1]
 
@@ -183,7 +183,7 @@ if __name__ == "__main__":
                     report["eyetracking_quality"].append(np.nan)
                     logging.exception(e)
             pdf.close()
-            logging.info(f"======= Finished {subject} =======")
+        logging.info(f"sub-{subject} Done")
         with open(saving_location / f"sub-{subject}_report.pkl", "wb") as f:
             pickle.dump(report, f)
         
