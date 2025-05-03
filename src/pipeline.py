@@ -66,6 +66,8 @@ if __name__ == "__main__":
                 f"run-{run}"
             ]
 
+            logging.info(f"========= Processing {subject} {session} {task} {run} =========")
+
             saving_dir = saving_location / file_parts[0] / file_parts[1]
 
             report["subject"].append(subject)
@@ -181,6 +183,7 @@ if __name__ == "__main__":
                     report["eyetracking_quality"].append(np.nan)
                     logging.exception(e)
             pdf.close()
+            logging.info(f"======= Finished {subject} =======")
         with open(saving_location / f"sub-{subject}_report.pkl", "wb") as f:
             pickle.dump(report, f)
         
