@@ -28,7 +28,7 @@ if __name__ == "__main__":
     saving_location = Path("/Volumes/LaCie/processed_2")
     saving_location.mkdir(parents = True, exist_ok = True)
     subjects = architecture.subjects
-    for subject in subjects[:1]:
+    for subject in subjects:
         report = {
             "subject": [],
             "task": [],
@@ -53,8 +53,8 @@ if __name__ == "__main__":
             extension = ".gz")
 
         products = list(itertools.product(
-            selection.sessions[:1],
-            selection.tasks[:1],
+            selection.sessions[1:],
+            selection.tasks[1:],
             ["1"]
         ))
 

@@ -9,3 +9,1930 @@
 2025-05-02 21:44:28,189 - INFO - ========= Processing 01 01EntSports PassiveHighVid 1 =========
 2025-05-02 21:45:05,464 - INFO - ========= Processing 01 01EntSports ActiveHighVid 1 =========
 2025-05-02 21:45:51,043 - INFO - ======= Finished 01 =======
+2025-05-19 10:17:03,051 - INFO - sub-01_ses-01EntSports_task-ActiveHighVid_run-1
+2025-05-19 10:17:23,895 - INFO - sub-01 Done
+2025-05-19 10:32:47,930 - INFO - sub-01_ses-01EntSports_task-ActiveHighVid_run-1
+2025-05-19 10:33:08,697 - INFO - sub-01 Done
+2025-05-19 10:33:08,732 - INFO - sub-02_ses-01Baby_task-ActiveHighVid_run-1
+2025-05-19 10:33:30,551 - INFO - sub-02 Done
+2025-05-19 10:33:30,570 - INFO - sub-03_ses-01Fitness_task-ActiveHighVid_run-1
+2025-05-19 10:33:51,102 - INFO - sub-03 Done
+2025-05-19 10:33:51,111 - INFO - sub-04_ses-01Food_task-ActiveHighVid_run-1
+2025-05-19 10:34:12,836 - INFO - sub-04 Done
+2025-05-19 10:34:12,855 - INFO - sub-05_ses-01Beauty_task-ActiveHighVid_run-1
+2025-05-19 10:34:32,023 - INFO - sub-05 Done
+2025-05-19 10:34:32,042 - INFO - sub-06_ses-01Advice_task-ActiveHighVid_run-1
+2025-05-19 10:35:10,584 - INFO - sub-06 Done
+2025-05-19 10:35:10,590 - INFO - sub-07_ses-01Travel_task-ActiveHighVid_run-1
+2025-05-19 10:35:49,726 - INFO - sub-07 Done
+2025-05-19 10:35:49,735 - INFO - sub-08_ses-01Pets_task-ActiveHighVid_run-1
+2025-05-19 10:36:32,639 - INFO - sub-08 Done
+2025-05-19 10:36:32,652 - INFO - sub-09_ses-01Nature_task-ActiveHighVid_run-1
+2025-05-19 10:37:12,154 - INFO - sub-09 Done
+2025-05-19 10:37:12,480 - INFO - sub-10_ses-01Diy_task-ActiveHighVid_run-1
+2025-05-19 10:37:53,129 - INFO - sub-10 Done
+2025-05-19 11:15:55,783 - INFO - sub-01_ses-02Baby_task-ActiveLowVid_run-1
+2025-05-19 11:16:16,711 - INFO - sub-01_ses-02Baby_task-ActiveMixedVid_run-1
+2025-05-19 11:16:37,001 - INFO - sub-01_ses-02Baby_task-PVT_run-1
+2025-05-19 11:16:56,116 - INFO - sub-01_ses-02Baby_task-PassiveHighVid_run-1
+2025-05-19 11:17:16,262 - INFO - sub-01_ses-02Baby_task-PassiveLowVid_run-1
+2025-05-19 11:17:36,710 - INFO - sub-01_ses-02Baby_task-PassiveMixedVid_run-1
+2025-05-19 11:17:57,006 - INFO - sub-01_ses-03Beauty_task-ActiveLowVid_run-1
+2025-05-19 11:17:57,010 - INFO - sub-01_ses-03Beauty_task-ActiveMixedVid_run-1
+2025-05-19 11:17:57,658 - INFO - sub-01_ses-03Beauty_task-PVT_run-1
+2025-05-19 11:17:57,841 - INFO - sub-01_ses-03Beauty_task-PassiveHighVid_run-1
+2025-05-19 11:17:58,465 - INFO - sub-01_ses-03Beauty_task-PassiveLowVid_run-1
+2025-05-19 11:17:59,063 - INFO - sub-01_ses-03Beauty_task-PassiveMixedVid_run-1
+2025-05-19 11:17:59,672 - INFO - sub-01_ses-04Advice_task-ActiveLowVid_run-1
+2025-05-19 11:18:41,172 - INFO - sub-01_ses-04Advice_task-ActiveMixedVid_run-1
+2025-05-19 11:19:21,959 - INFO - sub-01_ses-04Advice_task-PVT_run-1
+2025-05-19 11:19:58,347 - INFO - sub-01_ses-04Advice_task-PassiveHighVid_run-1
+2025-05-19 11:19:58,980 - INFO - sub-01_ses-04Advice_task-PassiveLowVid_run-1
+2025-05-19 11:20:38,496 - INFO - sub-01_ses-04Advice_task-PassiveMixedVid_run-1
+2025-05-19 11:21:18,576 - INFO - sub-01_ses-05Fitness_task-ActiveLowVid_run-1
+2025-05-19 11:21:58,244 - INFO - sub-01_ses-05Fitness_task-ActiveMixedVid_run-1
+2025-05-19 11:22:38,497 - INFO - sub-01_ses-05Fitness_task-PVT_run-1
+2025-05-19 11:23:16,300 - INFO - sub-01_ses-05Fitness_task-PassiveHighVid_run-1
+2025-05-19 11:23:58,774 - INFO - sub-01_ses-05Fitness_task-PassiveLowVid_run-1
+2025-05-19 11:24:41,026 - INFO - sub-01_ses-05Fitness_task-PassiveMixedVid_run-1
+2025-05-19 11:25:23,946 - INFO - sub-01_ses-06Pets_task-ActiveLowVid_run-1
+2025-05-19 11:26:06,439 - INFO - sub-01_ses-06Pets_task-ActiveMixedVid_run-1
+2025-05-19 11:26:48,875 - INFO - sub-01_ses-06Pets_task-PVT_run-1
+2025-05-19 11:27:26,602 - INFO - sub-01_ses-06Pets_task-PassiveHighVid_run-1
+2025-05-19 11:28:07,216 - INFO - sub-01_ses-06Pets_task-PassiveLowVid_run-1
+2025-05-19 11:28:46,466 - INFO - sub-01_ses-06Pets_task-PassiveMixedVid_run-1
+2025-05-19 11:29:25,836 - INFO - sub-01_ses-07Food_task-ActiveLowVid_run-1
+2025-05-19 11:30:05,843 - INFO - sub-01_ses-07Food_task-ActiveMixedVid_run-1
+2025-05-19 11:30:41,897 - INFO - sub-01_ses-07Food_task-PVT_run-1
+2025-05-19 11:31:20,447 - INFO - sub-01_ses-07Food_task-PassiveHighVid_run-1
+2025-05-19 11:32:00,515 - INFO - sub-01_ses-07Food_task-PassiveLowVid_run-1
+2025-05-19 11:32:42,014 - INFO - sub-01_ses-07Food_task-PassiveMixedVid_run-1
+2025-05-19 11:33:23,165 - INFO - sub-01_ses-08Diy_task-ActiveLowVid_run-1
+2025-05-19 11:34:03,380 - INFO - sub-01_ses-08Diy_task-ActiveMixedVid_run-1
+2025-05-19 11:34:43,172 - INFO - sub-01_ses-08Diy_task-PVT_run-1
+2025-05-19 11:35:19,052 - INFO - sub-01_ses-08Diy_task-PassiveHighVid_run-1
+2025-05-19 11:36:00,243 - INFO - sub-01_ses-08Diy_task-PassiveLowVid_run-1
+2025-05-19 11:36:38,986 - INFO - sub-01_ses-08Diy_task-PassiveMixedVid_run-1
+2025-05-19 11:37:18,989 - INFO - sub-01_ses-09Nature_task-ActiveLowVid_run-1
+2025-05-19 11:37:58,929 - INFO - sub-01_ses-09Nature_task-ActiveMixedVid_run-1
+2025-05-19 11:38:43,025 - INFO - sub-01_ses-09Nature_task-PVT_run-1
+2025-05-19 11:39:18,591 - INFO - sub-01_ses-09Nature_task-PassiveHighVid_run-1
+2025-05-19 11:39:59,037 - INFO - sub-01_ses-09Nature_task-PassiveLowVid_run-1
+2025-05-19 11:40:39,542 - INFO - sub-01_ses-09Nature_task-PassiveMixedVid_run-1
+2025-05-19 11:41:19,423 - INFO - sub-01_ses-10Travel_task-ActiveLowVid_run-1
+2025-05-19 11:41:59,777 - INFO - sub-01_ses-10Travel_task-ActiveMixedVid_run-1
+2025-05-19 11:42:39,503 - INFO - sub-01_ses-10Travel_task-PVT_run-1
+2025-05-19 11:43:17,512 - INFO - sub-01_ses-10Travel_task-PassiveHighVid_run-1
+2025-05-19 11:44:00,931 - INFO - sub-01_ses-10Travel_task-PassiveLowVid_run-1
+2025-05-19 11:44:43,566 - INFO - sub-01_ses-10Travel_task-PassiveMixedVid_run-1
+2025-05-19 11:45:23,015 - INFO - sub-01 Done
+2025-05-19 11:45:23,069 - INFO - sub-02_ses-02Diy_task-ActiveLowVid_run-1
+2025-05-19 11:45:43,869 - INFO - sub-02_ses-02Diy_task-ActiveMixedVid_run-1
+2025-05-19 11:46:04,042 - INFO - sub-02_ses-02Diy_task-MID_run-1
+2025-05-19 11:46:04,043 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:46:04,050 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:46:04,050 - INFO - sub-02_ses-02Diy_task-MovieThePresent_run-1
+2025-05-19 11:46:04,051 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:46:04,051 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:46:04,051 - INFO - sub-02_ses-02Diy_task-PVT_run-1
+2025-05-19 11:46:22,210 - INFO - sub-02_ses-02Diy_task-PassiveHighVid_run-1
+2025-05-19 11:46:42,309 - INFO - sub-02_ses-02Diy_task-PassiveLowVid_run-1
+2025-05-19 11:47:02,810 - INFO - sub-02_ses-02Diy_task-PassiveMixedVid_run-1
+2025-05-19 11:47:22,457 - INFO - sub-02_ses-02Diy_task-Rest_run-1
+2025-05-19 11:47:22,458 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:47:22,459 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:47:22,459 - INFO - sub-02_ses-02Diy_task-VisualLoc_run-1
+2025-05-19 11:47:22,459 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:47:22,460 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:47:22,460 - INFO - sub-02_ses-03Nature_task-ActiveLowVid_run-1
+2025-05-19 11:47:42,577 - INFO - sub-02_ses-03Nature_task-ActiveMixedVid_run-1
+2025-05-19 11:48:03,258 - INFO - sub-02_ses-03Nature_task-MID_run-1
+2025-05-19 11:48:03,260 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:48:03,260 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:48:03,260 - INFO - sub-02_ses-03Nature_task-MovieThePresent_run-1
+2025-05-19 11:48:03,261 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:48:03,261 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:48:03,261 - INFO - sub-02_ses-03Nature_task-PVT_run-1
+2025-05-19 11:48:21,342 - INFO - sub-02_ses-03Nature_task-PassiveHighVid_run-1
+2025-05-19 11:48:42,022 - INFO - sub-02_ses-03Nature_task-PassiveLowVid_run-1
+2025-05-19 11:49:02,798 - INFO - sub-02_ses-03Nature_task-PassiveMixedVid_run-1
+2025-05-19 11:49:22,761 - INFO - sub-02_ses-03Nature_task-Rest_run-1
+2025-05-19 11:49:22,762 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:49:22,762 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:49:22,763 - INFO - sub-02_ses-03Nature_task-VisualLoc_run-1
+2025-05-19 11:49:22,763 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:49:22,763 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:49:22,764 - INFO - sub-02_ses-04EntSports_task-ActiveLowVid_run-1
+2025-05-19 11:50:02,057 - INFO - sub-02_ses-04EntSports_task-ActiveMixedVid_run-1
+2025-05-19 11:50:42,478 - INFO - sub-02_ses-04EntSports_task-MID_run-1
+2025-05-19 11:50:42,479 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:50:42,480 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:50:42,480 - INFO - sub-02_ses-04EntSports_task-MovieThePresent_run-1
+2025-05-19 11:50:42,480 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:50:42,481 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:50:42,481 - INFO - sub-02_ses-04EntSports_task-PVT_run-1
+2025-05-19 11:51:19,465 - INFO - sub-02_ses-04EntSports_task-PassiveHighVid_run-1
+2025-05-19 11:51:58,929 - INFO - sub-02_ses-04EntSports_task-PassiveLowVid_run-1
+2025-05-19 11:52:38,469 - INFO - sub-02_ses-04EntSports_task-PassiveMixedVid_run-1
+2025-05-19 11:53:21,371 - INFO - sub-02_ses-04EntSports_task-Rest_run-1
+2025-05-19 11:53:21,373 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:53:21,374 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:53:21,374 - INFO - sub-02_ses-04EntSports_task-VisualLoc_run-1
+2025-05-19 11:53:21,374 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:53:21,374 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:53:21,375 - INFO - sub-02_ses-05Advice_task-ActiveLowVid_run-1
+2025-05-19 11:54:02,650 - INFO - sub-02_ses-05Advice_task-ActiveMixedVid_run-1
+2025-05-19 11:54:42,192 - INFO - sub-02_ses-05Advice_task-MID_run-1
+2025-05-19 11:54:42,193 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:54:42,194 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:54:42,194 - INFO - sub-02_ses-05Advice_task-MovieThePresent_run-1
+2025-05-19 11:54:42,194 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:54:42,195 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:54:42,195 - INFO - sub-02_ses-05Advice_task-PVT_run-1
+2025-05-19 11:55:19,365 - INFO - sub-02_ses-05Advice_task-PassiveHighVid_run-1
+2025-05-19 11:55:57,430 - INFO - sub-02_ses-05Advice_task-PassiveLowVid_run-1
+2025-05-19 11:56:37,116 - INFO - sub-02_ses-05Advice_task-PassiveMixedVid_run-1
+2025-05-19 11:57:16,961 - INFO - sub-02_ses-05Advice_task-Rest_run-1
+2025-05-19 11:57:16,963 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:57:16,964 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:57:16,964 - INFO - sub-02_ses-05Advice_task-VisualLoc_run-1
+2025-05-19 11:57:16,964 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:57:16,965 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:57:16,965 - INFO - sub-02_ses-06Travel_task-ActiveLowVid_run-1
+2025-05-19 11:57:57,389 - INFO - sub-02_ses-06Travel_task-ActiveMixedVid_run-1
+2025-05-19 11:58:36,814 - INFO - sub-02_ses-06Travel_task-MID_run-1
+2025-05-19 11:58:36,815 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:58:36,816 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:58:36,816 - INFO - sub-02_ses-06Travel_task-MovieThePresent_run-1
+2025-05-19 11:58:36,817 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:58:36,817 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 11:58:36,817 - INFO - sub-02_ses-06Travel_task-PVT_run-1
+2025-05-19 11:59:12,953 - INFO - sub-02_ses-06Travel_task-PassiveHighVid_run-1
+2025-05-19 11:59:52,332 - INFO - sub-02_ses-06Travel_task-PassiveLowVid_run-1
+2025-05-19 12:00:31,744 - INFO - sub-02_ses-06Travel_task-PassiveMixedVid_run-1
+2025-05-19 12:01:11,100 - INFO - sub-02_ses-06Travel_task-Rest_run-1
+2025-05-19 12:01:11,102 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:01:11,103 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:01:11,103 - INFO - sub-02_ses-06Travel_task-VisualLoc_run-1
+2025-05-19 12:01:11,103 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:01:11,104 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:01:11,104 - INFO - sub-02_ses-07Fitness_task-ActiveLowVid_run-1
+2025-05-19 12:01:50,935 - INFO - sub-02_ses-07Fitness_task-ActiveMixedVid_run-1
+2025-05-19 12:02:29,437 - INFO - sub-02_ses-07Fitness_task-MID_run-1
+2025-05-19 12:02:29,439 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:02:29,439 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:02:29,439 - INFO - sub-02_ses-07Fitness_task-MovieThePresent_run-1
+2025-05-19 12:02:29,440 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:02:29,440 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:02:29,440 - INFO - sub-02_ses-07Fitness_task-PVT_run-1
+2025-05-19 12:03:05,244 - INFO - sub-02_ses-07Fitness_task-PassiveHighVid_run-1
+2025-05-19 12:03:44,733 - INFO - sub-02_ses-07Fitness_task-PassiveLowVid_run-1
+2025-05-19 12:04:23,697 - INFO - sub-02_ses-07Fitness_task-PassiveMixedVid_run-1
+2025-05-19 12:05:02,879 - INFO - sub-02_ses-07Fitness_task-Rest_run-1
+2025-05-19 12:05:02,881 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:05:02,882 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:05:02,882 - INFO - sub-02_ses-07Fitness_task-VisualLoc_run-1
+2025-05-19 12:05:02,883 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:05:02,883 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:05:02,883 - INFO - sub-02_ses-08Beauty_task-ActiveLowVid_run-1
+2025-05-19 12:05:43,981 - INFO - sub-02_ses-08Beauty_task-ActiveMixedVid_run-1
+2025-05-19 12:06:23,310 - INFO - sub-02_ses-08Beauty_task-MID_run-1
+2025-05-19 12:06:23,312 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:06:23,312 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:06:23,312 - INFO - sub-02_ses-08Beauty_task-MovieThePresent_run-1
+2025-05-19 12:06:23,313 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:06:23,313 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:06:23,313 - INFO - sub-02_ses-08Beauty_task-PVT_run-1
+2025-05-19 12:06:58,520 - INFO - sub-02_ses-08Beauty_task-PassiveHighVid_run-1
+2025-05-19 12:07:37,885 - INFO - sub-02_ses-08Beauty_task-PassiveLowVid_run-1
+2025-05-19 12:08:17,214 - INFO - sub-02_ses-08Beauty_task-PassiveMixedVid_run-1
+2025-05-19 12:08:57,081 - INFO - sub-02_ses-08Beauty_task-Rest_run-1
+2025-05-19 12:08:57,084 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:08:57,084 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:08:57,084 - INFO - sub-02_ses-08Beauty_task-VisualLoc_run-1
+2025-05-19 12:08:57,085 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:08:57,085 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:08:57,085 - INFO - sub-02_ses-09Pets_task-ActiveLowVid_run-1
+2025-05-19 12:09:37,689 - INFO - sub-02_ses-09Pets_task-ActiveMixedVid_run-1
+2025-05-19 12:10:16,762 - INFO - sub-02_ses-09Pets_task-MID_run-1
+2025-05-19 12:10:16,764 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:10:16,765 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:10:16,765 - INFO - sub-02_ses-09Pets_task-MovieThePresent_run-1
+2025-05-19 12:10:16,765 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:10:16,766 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:10:16,766 - INFO - sub-02_ses-09Pets_task-PVT_run-1
+2025-05-19 12:10:52,923 - INFO - sub-02_ses-09Pets_task-PassiveHighVid_run-1
+2025-05-19 12:11:33,442 - INFO - sub-02_ses-09Pets_task-PassiveLowVid_run-1
+2025-05-19 12:12:12,305 - INFO - sub-02_ses-09Pets_task-PassiveMixedVid_run-1
+2025-05-19 12:12:52,246 - INFO - sub-02_ses-09Pets_task-Rest_run-1
+2025-05-19 12:12:52,247 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:12:52,248 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:12:52,248 - INFO - sub-02_ses-09Pets_task-VisualLoc_run-1
+2025-05-19 12:12:52,248 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:12:52,249 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:12:52,249 - INFO - sub-02_ses-10Food_task-ActiveLowVid_run-1
+2025-05-19 12:13:32,575 - INFO - sub-02_ses-10Food_task-ActiveMixedVid_run-1
+2025-05-19 12:14:11,401 - INFO - sub-02_ses-10Food_task-MID_run-1
+2025-05-19 12:14:11,403 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:14:11,403 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:14:11,404 - INFO - sub-02_ses-10Food_task-MovieThePresent_run-1
+2025-05-19 12:14:11,404 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:14:11,404 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:14:11,404 - INFO - sub-02_ses-10Food_task-PVT_run-1
+2025-05-19 12:14:47,715 - INFO - sub-02_ses-10Food_task-PassiveHighVid_run-1
+2025-05-19 12:15:27,066 - INFO - sub-02_ses-10Food_task-PassiveLowVid_run-1
+2025-05-19 12:16:07,026 - INFO - sub-02_ses-10Food_task-PassiveMixedVid_run-1
+2025-05-19 12:16:46,851 - INFO - sub-02_ses-10Food_task-Rest_run-1
+2025-05-19 12:16:46,854 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:16:46,854 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:16:46,855 - INFO - sub-02_ses-10Food_task-VisualLoc_run-1
+2025-05-19 12:16:46,855 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:16:46,855 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:16:46,856 - INFO - sub-02_ses-misc_task-ActiveLowVid_run-1
+2025-05-19 12:16:46,856 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:16:46,856 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:16:46,857 - INFO - sub-02_ses-misc_task-ActiveMixedVid_run-1
+2025-05-19 12:16:46,857 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:16:46,857 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:16:46,858 - INFO - sub-02_ses-misc_task-MID_run-1
+2025-05-19 12:17:21,053 - INFO - sub-02_ses-misc_task-MovieThePresent_run-1
+2025-05-19 12:17:36,332 - INFO - sub-02_ses-misc_task-PVT_run-1
+2025-05-19 12:17:36,333 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:17:36,334 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:17:36,334 - INFO - sub-02_ses-misc_task-PassiveHighVid_run-1
+2025-05-19 12:17:36,335 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:17:36,335 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:17:36,335 - INFO - sub-02_ses-misc_task-PassiveLowVid_run-1
+2025-05-19 12:17:36,335 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:17:36,336 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:17:36,336 - INFO - sub-02_ses-misc_task-PassiveMixedVid_run-1
+2025-05-19 12:17:36,336 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:17:36,337 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 12:17:36,337 - INFO - sub-02_ses-misc_task-Rest_run-1
+2025-05-19 12:18:13,794 - INFO - sub-02_ses-misc_task-VisualLoc_run-1
+2025-05-19 12:18:47,457 - INFO - sub-02 Done
+2025-05-19 12:18:47,706 - INFO - sub-03_ses-02Advice_task-ActiveLowVid_run-1
+2025-05-19 12:18:48,510 - INFO - sub-03_ses-02Advice_task-ActiveMixedVid_run-1
+2025-05-19 12:19:09,702 - INFO - sub-03_ses-02Advice_task-PVT_run-1
+2025-05-19 12:19:27,879 - INFO - sub-03_ses-02Advice_task-PassiveHighVid_run-1
+2025-05-19 12:19:48,068 - INFO - sub-03_ses-02Advice_task-PassiveLowVid_run-1
+2025-05-19 12:20:08,061 - INFO - sub-03_ses-02Advice_task-PassiveMixedVid_run-1
+2025-05-19 12:20:31,225 - INFO - sub-03_ses-03Travel_task-ActiveLowVid_run-1
+2025-05-19 12:20:50,592 - INFO - sub-03_ses-03Travel_task-ActiveMixedVid_run-1
+2025-05-19 12:21:10,417 - INFO - sub-03_ses-03Travel_task-PVT_run-1
+2025-05-19 12:21:28,713 - INFO - sub-03_ses-03Travel_task-PassiveHighVid_run-1
+2025-05-19 12:21:49,391 - INFO - sub-03_ses-03Travel_task-PassiveLowVid_run-1
+2025-05-19 12:22:10,604 - INFO - sub-03_ses-03Travel_task-PassiveMixedVid_run-1
+2025-05-19 12:22:30,719 - INFO - sub-03_ses-04Food_task-ActiveLowVid_run-1
+2025-05-19 12:23:09,182 - INFO - sub-03_ses-04Food_task-ActiveMixedVid_run-1
+2025-05-19 12:23:50,460 - INFO - sub-03_ses-04Food_task-PVT_run-1
+2025-05-19 12:24:27,026 - INFO - sub-03_ses-04Food_task-PassiveHighVid_run-1
+2025-05-19 12:25:06,881 - INFO - sub-03_ses-04Food_task-PassiveLowVid_run-1
+2025-05-19 12:25:45,164 - INFO - sub-03_ses-04Food_task-PassiveMixedVid_run-1
+2025-05-19 12:26:24,602 - INFO - sub-03_ses-05Nature_task-ActiveLowVid_run-1
+2025-05-19 12:27:06,176 - INFO - sub-03_ses-05Nature_task-ActiveMixedVid_run-1
+2025-05-19 12:27:47,843 - INFO - sub-03_ses-05Nature_task-PVT_run-1
+2025-05-19 12:28:25,530 - INFO - sub-03_ses-05Nature_task-PassiveHighVid_run-1
+2025-05-19 12:29:06,829 - INFO - sub-03_ses-05Nature_task-PassiveLowVid_run-1
+2025-05-19 12:29:46,829 - INFO - sub-03_ses-05Nature_task-PassiveMixedVid_run-1
+2025-05-19 12:30:28,224 - INFO - sub-03_ses-06Diy_task-ActiveLowVid_run-1
+2025-05-19 12:31:08,875 - INFO - sub-03_ses-06Diy_task-ActiveMixedVid_run-1
+2025-05-19 12:31:49,539 - INFO - sub-03_ses-06Diy_task-PVT_run-1
+2025-05-19 12:32:26,813 - INFO - sub-03_ses-06Diy_task-PassiveHighVid_run-1
+2025-05-19 12:33:07,391 - INFO - sub-03_ses-06Diy_task-PassiveLowVid_run-1
+2025-05-19 12:33:39,504 - ERROR - arrays used as indices must be of integer (or boolean) type
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 133, in <module>
+    biopac_data["ecg"].process().save(ecg_filename)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py", line 1196, in process
+    self._switch_to_right_polarity(self._adjusted_r_peaks)
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py", line 884, in _switch_to_right_polarity
+    average_peaks = np.median(self.cleaned_signal[r_peaks])
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+IndexError: arrays used as indices must be of integer (or boolean) type
+2025-05-19 12:33:40,402 - INFO - sub-03_ses-06Diy_task-PassiveMixedVid_run-1
+2025-05-19 12:34:21,038 - INFO - sub-03_ses-07Beauty_task-ActiveLowVid_run-1
+2025-05-19 12:35:01,743 - INFO - sub-03_ses-07Beauty_task-ActiveMixedVid_run-1
+2025-05-19 12:35:41,176 - INFO - sub-03_ses-07Beauty_task-PVT_run-1
+2025-05-19 12:36:17,588 - INFO - sub-03_ses-07Beauty_task-PassiveHighVid_run-1
+2025-05-19 12:36:56,648 - INFO - sub-03_ses-07Beauty_task-PassiveLowVid_run-1
+2025-05-19 12:37:35,737 - INFO - sub-03_ses-07Beauty_task-PassiveMixedVid_run-1
+2025-05-19 12:38:16,354 - INFO - sub-03_ses-08Pets_task-ActiveLowVid_run-1
+2025-05-19 12:38:57,714 - INFO - sub-03_ses-08Pets_task-ActiveMixedVid_run-1
+2025-05-19 12:39:37,746 - INFO - sub-03_ses-08Pets_task-PVT_run-1
+2025-05-19 12:40:14,031 - INFO - sub-03_ses-08Pets_task-PassiveHighVid_run-1
+2025-05-19 12:40:56,487 - INFO - sub-03_ses-08Pets_task-PassiveLowVid_run-1
+2025-05-19 12:41:36,682 - INFO - sub-03_ses-08Pets_task-PassiveMixedVid_run-1
+2025-05-19 12:42:17,758 - INFO - sub-03_ses-09Baby_task-ActiveLowVid_run-1
+2025-05-19 12:43:02,268 - INFO - sub-03_ses-09Baby_task-ActiveMixedVid_run-1
+2025-05-19 12:43:43,212 - INFO - sub-03_ses-09Baby_task-PVT_run-1
+2025-05-19 12:44:19,568 - INFO - sub-03_ses-09Baby_task-PassiveHighVid_run-1
+2025-05-19 12:44:59,518 - INFO - sub-03_ses-09Baby_task-PassiveLowVid_run-1
+2025-05-19 12:45:39,886 - INFO - sub-03_ses-09Baby_task-PassiveMixedVid_run-1
+2025-05-19 12:46:24,396 - INFO - sub-03_ses-10EntSports_task-ActiveLowVid_run-1
+2025-05-19 12:47:06,324 - INFO - sub-03_ses-10EntSports_task-ActiveMixedVid_run-1
+2025-05-19 12:47:48,599 - INFO - sub-03_ses-10EntSports_task-PVT_run-1
+2025-05-19 12:48:27,290 - INFO - sub-03_ses-10EntSports_task-PassiveHighVid_run-1
+2025-05-19 12:49:08,744 - INFO - sub-03_ses-10EntSports_task-PassiveLowVid_run-1
+2025-05-19 12:49:52,860 - INFO - sub-03_ses-10EntSports_task-PassiveMixedVid_run-1
+2025-05-19 12:50:34,014 - INFO - sub-03 Done
+2025-05-19 12:50:34,987 - INFO - sub-04_ses-02Pets_task-ActiveLowVid_run-1
+2025-05-19 12:50:56,712 - INFO - sub-04_ses-02Pets_task-ActiveMixedVid_run-1
+2025-05-19 12:51:18,189 - INFO - sub-04_ses-02Pets_task-PVT_run-1
+2025-05-19 12:51:36,500 - INFO - sub-04_ses-02Pets_task-PassiveHighVid_run-1
+2025-05-19 12:51:57,275 - INFO - sub-04_ses-02Pets_task-PassiveLowVid_run-1
+2025-05-19 12:52:19,481 - INFO - sub-04_ses-02Pets_task-PassiveMixedVid_run-1
+2025-05-19 12:52:40,262 - INFO - sub-04_ses-03Advice_task-ActiveLowVid_run-1
+2025-05-19 12:53:21,233 - INFO - sub-04_ses-03Advice_task-ActiveMixedVid_run-1
+2025-05-19 12:54:01,494 - INFO - sub-04_ses-03Advice_task-PVT_run-1
+2025-05-19 12:54:37,601 - INFO - sub-04_ses-03Advice_task-PassiveHighVid_run-1
+2025-05-19 12:55:18,298 - INFO - sub-04_ses-03Advice_task-PassiveLowVid_run-1
+2025-05-19 12:55:58,399 - INFO - sub-04_ses-03Advice_task-PassiveMixedVid_run-1
+2025-05-19 12:56:38,605 - INFO - sub-04_ses-04Nature_task-ActiveLowVid_run-1
+2025-05-19 12:57:19,008 - INFO - sub-04_ses-04Nature_task-ActiveMixedVid_run-1
+2025-05-19 12:57:59,293 - INFO - sub-04_ses-04Nature_task-PVT_run-1
+2025-05-19 12:58:35,795 - INFO - sub-04_ses-04Nature_task-PassiveHighVid_run-1
+2025-05-19 12:59:15,327 - INFO - sub-04_ses-04Nature_task-PassiveLowVid_run-1
+2025-05-19 12:59:56,325 - INFO - sub-04_ses-04Nature_task-PassiveMixedVid_run-1
+2025-05-19 13:00:36,850 - INFO - sub-04_ses-05Diy_task-ActiveLowVid_run-1
+2025-05-19 13:01:18,391 - INFO - sub-04_ses-05Diy_task-ActiveMixedVid_run-1
+2025-05-19 13:01:37,132 - INFO - sub-04_ses-05Diy_task-PVT_run-1
+2025-05-19 13:02:13,881 - INFO - sub-04_ses-05Diy_task-PassiveHighVid_run-1
+2025-05-19 13:02:55,512 - INFO - sub-04_ses-05Diy_task-PassiveLowVid_run-1
+2025-05-19 13:03:38,161 - INFO - sub-04_ses-05Diy_task-PassiveMixedVid_run-1
+2025-05-19 13:04:19,328 - INFO - sub-04_ses-06Fitness_task-ActiveLowVid_run-1
+2025-05-19 13:05:00,612 - INFO - sub-04_ses-06Fitness_task-ActiveMixedVid_run-1
+2025-05-19 13:05:30,737 - INFO - sub-04_ses-06Fitness_task-PVT_run-1
+2025-05-19 13:06:11,236 - INFO - sub-04_ses-06Fitness_task-PassiveHighVid_run-1
+2025-05-19 13:06:55,793 - INFO - sub-04_ses-06Fitness_task-PassiveLowVid_run-1
+2025-05-19 13:07:38,533 - INFO - sub-04_ses-06Fitness_task-PassiveMixedVid_run-1
+2025-05-19 13:08:21,636 - INFO - sub-04_ses-07Baby_task-ActiveLowVid_run-1
+2025-05-19 13:09:04,632 - INFO - sub-04_ses-07Baby_task-ActiveMixedVid_run-1
+2025-05-19 13:09:46,578 - INFO - sub-04_ses-07Baby_task-PVT_run-1
+2025-05-19 13:10:24,966 - INFO - sub-04_ses-07Baby_task-PassiveHighVid_run-1
+2025-05-19 13:11:05,741 - INFO - sub-04_ses-07Baby_task-PassiveLowVid_run-1
+2025-05-19 13:11:52,436 - INFO - sub-04_ses-07Baby_task-PassiveMixedVid_run-1
+2025-05-19 13:12:35,835 - INFO - sub-04_ses-08Travel_task-ActiveLowVid_run-1
+2025-05-19 13:13:18,220 - INFO - sub-04_ses-08Travel_task-ActiveMixedVid_run-1
+2025-05-19 13:13:58,949 - INFO - sub-04_ses-08Travel_task-PVT_run-1
+2025-05-19 13:14:36,374 - INFO - sub-04_ses-08Travel_task-PassiveHighVid_run-1
+2025-05-19 13:15:18,187 - INFO - sub-04_ses-08Travel_task-PassiveLowVid_run-1
+2025-05-19 13:15:58,709 - INFO - sub-04_ses-08Travel_task-PassiveMixedVid_run-1
+2025-05-19 13:16:42,680 - INFO - sub-04 Done
+2025-05-19 13:16:43,606 - INFO - sub-05_ses-02Fitness_task-ActiveLowVid_run-1
+2025-05-19 13:17:03,500 - INFO - sub-05_ses-02Fitness_task-ActiveMixedVid_run-1
+2025-05-19 13:17:22,830 - INFO - sub-05_ses-02Fitness_task-PVT_run-1
+2025-05-19 13:17:41,779 - INFO - sub-05_ses-02Fitness_task-PassiveHighVid_run-1
+2025-05-19 13:18:01,270 - INFO - sub-05_ses-02Fitness_task-PassiveLowVid_run-1
+2025-05-19 13:18:20,479 - INFO - sub-05_ses-02Fitness_task-PassiveMixedVid_run-1
+2025-05-19 13:18:40,027 - INFO - sub-05_ses-03Baby_task-ActiveLowVid_run-1
+2025-05-19 13:19:19,098 - INFO - sub-05_ses-03Baby_task-ActiveMixedVid_run-1
+2025-05-19 13:19:59,408 - INFO - sub-05_ses-03Baby_task-PVT_run-1
+2025-05-19 13:20:27,851 - ERROR - arrays used as indices must be of integer (or boolean) type
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 133, in <module>
+    biopac_data["ecg"].process().save(ecg_filename)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py", line 1196, in process
+    self._switch_to_right_polarity(self._adjusted_r_peaks)
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py", line 884, in _switch_to_right_polarity
+    average_peaks = np.median(self.cleaned_signal[r_peaks])
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+IndexError: arrays used as indices must be of integer (or boolean) type
+2025-05-19 13:20:28,296 - INFO - sub-05_ses-03Baby_task-PassiveHighVid_run-1
+2025-05-19 13:21:07,734 - INFO - sub-05_ses-03Baby_task-PassiveLowVid_run-1
+2025-05-19 13:21:51,411 - INFO - sub-05_ses-03Baby_task-PassiveMixedVid_run-1
+2025-05-19 13:21:51,412 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 89, in <module>
+    files_biopac = sub_selection.select(acquisition = "biopac")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 13:21:51,413 - ERROR - 'acquisition'
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 161, in <module>
+    files_eyetracking = sub_selection.select(acquisition = "eyelink", extension = ".gz")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 665, in select
+    mask = self._create_mask(**kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/bids_explorer/architecture/architecture.py", line 581, in _create_mask
+    col = self._database[key]
+          ~~~~~~~~~~~~~~^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/anaconda3/envs/mne/lib/python3.12/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'acquisition'
+2025-05-19 13:21:51,413 - INFO - sub-05_ses-04Pets_task-ActiveLowVid_run-1
+2025-05-19 13:22:31,659 - INFO - sub-05_ses-04Pets_task-ActiveMixedVid_run-1
+2025-05-19 13:23:12,477 - INFO - sub-05_ses-04Pets_task-PVT_run-1
+2025-05-19 13:23:48,598 - INFO - sub-05_ses-04Pets_task-PassiveHighVid_run-1
+2025-05-19 13:24:28,922 - INFO - sub-05_ses-04Pets_task-PassiveLowVid_run-1
+2025-05-19 13:25:09,911 - INFO - sub-05_ses-04Pets_task-PassiveMixedVid_run-1
+2025-05-19 13:25:49,893 - INFO - sub-05_ses-05EntSports_task-ActiveLowVid_run-1
+2025-05-19 13:26:30,482 - INFO - sub-05_ses-05EntSports_task-ActiveMixedVid_run-1
+2025-05-19 13:27:11,277 - INFO - sub-05_ses-05EntSports_task-PVT_run-1
+2025-05-19 13:27:47,730 - INFO - sub-05_ses-05EntSports_task-PassiveHighVid_run-1
+2025-05-19 13:28:27,342 - INFO - sub-05_ses-05EntSports_task-PassiveLowVid_run-1
+2025-05-19 13:29:08,407 - INFO - sub-05_ses-05EntSports_task-PassiveMixedVid_run-1
+2025-05-19 13:29:22,732 - INFO - sub-05_ses-06Nature_task-ActiveLowVid_run-1
+2025-05-19 13:29:50,171 - INFO - sub-05_ses-06Nature_task-ActiveMixedVid_run-1
+2025-05-19 13:30:33,524 - INFO - sub-05_ses-06Nature_task-PVT_run-1
+2025-05-19 13:31:10,834 - INFO - sub-05_ses-06Nature_task-PassiveHighVid_run-1
+2025-05-19 13:31:50,966 - INFO - sub-05_ses-06Nature_task-PassiveLowVid_run-1
+2025-05-19 13:32:31,202 - INFO - sub-05_ses-06Nature_task-PassiveMixedVid_run-1
+2025-05-19 13:33:10,252 - INFO - sub-05_ses-07Travel_task-ActiveLowVid_run-1
+2025-05-19 13:33:50,443 - INFO - sub-05_ses-07Travel_task-ActiveMixedVid_run-1
+2025-05-19 13:34:30,178 - INFO - sub-05_ses-07Travel_task-PVT_run-1
+2025-05-19 13:35:07,582 - INFO - sub-05_ses-07Travel_task-PassiveHighVid_run-1
+2025-05-19 13:35:47,193 - INFO - sub-05_ses-07Travel_task-PassiveLowVid_run-1
+2025-05-19 13:36:26,512 - INFO - sub-05_ses-07Travel_task-PassiveMixedVid_run-1
+2025-05-19 13:37:07,538 - INFO - sub-05 Done
+2025-05-19 13:37:09,461 - INFO - sub-06_ses-02Travel_task-ActiveLowVid_run-1
+2025-05-19 13:37:49,182 - INFO - sub-06_ses-02Travel_task-ActiveMixedVid_run-1
+2025-05-19 13:38:30,187 - INFO - sub-06_ses-02Travel_task-PVT_run-1
+2025-05-19 13:39:07,051 - INFO - sub-06_ses-02Travel_task-PassiveHighVid_run-1
+2025-05-19 13:39:47,958 - INFO - sub-06_ses-02Travel_task-PassiveLowVid_run-1
+2025-05-19 13:40:28,274 - INFO - sub-06_ses-02Travel_task-PassiveMixedVid_run-1
+2025-05-19 13:41:11,819 - INFO - sub-06_ses-03EntSports_task-ActiveLowVid_run-1
+2025-05-19 13:41:51,724 - INFO - sub-06_ses-03EntSports_task-ActiveMixedVid_run-1
+2025-05-19 13:42:31,863 - INFO - sub-06_ses-03EntSports_task-PVT_run-1
+2025-05-19 13:43:08,843 - INFO - sub-06_ses-03EntSports_task-PassiveHighVid_run-1
+2025-05-19 13:43:51,027 - INFO - sub-06_ses-03EntSports_task-PassiveLowVid_run-1
+2025-05-19 13:44:33,585 - INFO - sub-06_ses-03EntSports_task-PassiveMixedVid_run-1
+2025-05-19 13:45:14,176 - INFO - sub-06_ses-04Fitness_task-ActiveLowVid_run-1
+2025-05-19 13:45:55,646 - INFO - sub-06_ses-04Fitness_task-ActiveMixedVid_run-1
+2025-05-19 13:46:35,788 - INFO - sub-06_ses-04Fitness_task-PVT_run-1
+2025-05-19 13:47:13,500 - INFO - sub-06_ses-04Fitness_task-PassiveHighVid_run-1
+2025-05-19 13:47:53,065 - INFO - sub-06_ses-04Fitness_task-PassiveLowVid_run-1
+2025-05-19 13:48:32,290 - INFO - sub-06_ses-04Fitness_task-PassiveMixedVid_run-1
+2025-05-19 13:49:11,900 - INFO - sub-06_ses-05Beauty_task-ActiveLowVid_run-1
+2025-05-19 13:49:51,715 - INFO - sub-06_ses-05Beauty_task-ActiveMixedVid_run-1
+2025-05-19 13:50:31,711 - INFO - sub-06_ses-05Beauty_task-PVT_run-1
+2025-05-19 13:51:08,032 - INFO - sub-06_ses-05Beauty_task-PassiveHighVid_run-1
+2025-05-19 13:51:47,318 - INFO - sub-06_ses-05Beauty_task-PassiveLowVid_run-1
+2025-05-19 13:52:27,473 - INFO - sub-06_ses-05Beauty_task-PassiveMixedVid_run-1
+2025-05-19 13:53:07,470 - INFO - sub-06_ses-06Baby_task-ActiveLowVid_run-1
+2025-05-19 13:53:48,029 - INFO - sub-06_ses-06Baby_task-ActiveMixedVid_run-1
+2025-05-19 13:54:29,173 - INFO - sub-06_ses-06Baby_task-PVT_run-1
+2025-05-19 13:55:08,560 - INFO - sub-06_ses-06Baby_task-PassiveHighVid_run-1
+2025-05-19 13:55:49,141 - INFO - sub-06_ses-06Baby_task-PassiveLowVid_run-1
+2025-05-19 13:56:30,247 - INFO - sub-06_ses-06Baby_task-PassiveMixedVid_run-1
+2025-05-19 13:57:11,949 - INFO - sub-06_ses-07Diy_task-ActiveLowVid_run-1
+2025-05-19 13:57:53,229 - INFO - sub-06_ses-07Diy_task-ActiveMixedVid_run-1
+2025-05-19 13:58:34,404 - INFO - sub-06_ses-07Diy_task-PVT_run-1
+2025-05-19 13:59:13,055 - INFO - sub-06_ses-07Diy_task-PassiveHighVid_run-1
+2025-05-19 13:59:53,410 - INFO - sub-06_ses-07Diy_task-PassiveLowVid_run-1
+2025-05-19 14:00:34,882 - INFO - sub-06_ses-07Diy_task-PassiveMixedVid_run-1
+2025-05-19 14:01:15,619 - INFO - sub-06_ses-08Nature_task-ActiveLowVid_run-1
+2025-05-19 14:01:58,508 - INFO - sub-06_ses-08Nature_task-ActiveMixedVid_run-1
+2025-05-19 14:02:38,949 - INFO - sub-06_ses-08Nature_task-PVT_run-1
+2025-05-19 14:03:15,778 - INFO - sub-06_ses-08Nature_task-PassiveHighVid_run-1
+2025-05-19 14:03:55,779 - INFO - sub-06_ses-08Nature_task-PassiveLowVid_run-1
+2025-05-19 14:04:36,399 - INFO - sub-06_ses-08Nature_task-PassiveMixedVid_run-1
+2025-05-19 14:05:19,895 - INFO - sub-06_ses-09Food_task-ActiveLowVid_run-1
+2025-05-19 14:06:01,269 - INFO - sub-06_ses-09Food_task-ActiveMixedVid_run-1
+2025-05-19 14:06:46,278 - INFO - sub-06_ses-09Food_task-PVT_run-1
+2025-05-19 14:07:23,144 - INFO - sub-06_ses-09Food_task-PassiveHighVid_run-1
+2025-05-19 14:08:04,339 - INFO - sub-06_ses-09Food_task-PassiveLowVid_run-1
+2025-05-19 14:08:45,564 - INFO - sub-06_ses-09Food_task-PassiveMixedVid_run-1
+2025-05-19 14:09:25,079 - INFO - sub-06 Done
+2025-05-19 14:09:26,203 - INFO - sub-07_ses-02EntSports_task-ActiveLowVid_run-1
+2025-05-19 14:10:07,396 - INFO - sub-07_ses-02EntSports_task-ActiveMixedVid_run-1
+2025-05-19 14:10:49,669 - INFO - sub-07_ses-02EntSports_task-PVT_run-1
+2025-05-19 14:11:27,285 - INFO - sub-07_ses-02EntSports_task-PassiveHighVid_run-1
+2025-05-19 14:12:09,903 - INFO - sub-07_ses-02EntSports_task-PassiveLowVid_run-1
+2025-05-19 14:12:50,196 - INFO - sub-07_ses-02EntSports_task-PassiveMixedVid_run-1
+2025-05-19 14:13:30,899 - INFO - sub-07_ses-03Diy_task-ActiveLowVid_run-1
+2025-05-19 14:14:11,376 - INFO - sub-07_ses-03Diy_task-ActiveMixedVid_run-1
+2025-05-19 14:14:51,854 - INFO - sub-07_ses-03Diy_task-PVT_run-1
+2025-05-19 14:15:28,188 - INFO - sub-07_ses-03Diy_task-PassiveHighVid_run-1
+2025-05-19 14:16:09,992 - INFO - sub-07_ses-03Diy_task-PassiveLowVid_run-1
+2025-05-19 14:16:51,953 - INFO - sub-07_ses-03Diy_task-PassiveMixedVid_run-1
+2025-05-19 14:17:33,597 - INFO - sub-07_ses-04Beauty_task-ActiveLowVid_run-1
+2025-05-19 14:18:16,576 - INFO - sub-07_ses-04Beauty_task-ActiveMixedVid_run-1
+2025-05-19 14:18:48,177 - ERROR - arrays used as indices must be of integer (or boolean) type
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./src/pipeline.py", line 133, in <module>
+    biopac_data["ecg"].process().save(ecg_filename)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py", line 1196, in process
+    self._switch_to_right_polarity(self._adjusted_r_peaks)
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/src/modalities.py", line 884, in _switch_to_right_polarity
+    average_peaks = np.median(self.cleaned_signal[r_peaks])
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+IndexError: arrays used as indices must be of integer (or boolean) type
+2025-05-19 14:18:49,984 - INFO - sub-07_ses-04Beauty_task-PVT_run-1
+2025-05-19 14:19:27,333 - INFO - sub-07_ses-04Beauty_task-PassiveHighVid_run-1
+2025-05-19 14:20:08,355 - INFO - sub-07_ses-04Beauty_task-PassiveLowVid_run-1
+2025-05-19 14:20:49,278 - INFO - sub-07_ses-04Beauty_task-PassiveMixedVid_run-1
+2025-05-19 14:21:30,536 - INFO - sub-07_ses-05Pets_task-ActiveLowVid_run-1
+2025-05-19 14:22:10,797 - INFO - sub-07_ses-05Pets_task-ActiveMixedVid_run-1
+2025-05-19 14:22:52,203 - INFO - sub-07_ses-05Pets_task-PVT_run-1
+2025-05-19 14:23:29,346 - INFO - sub-07_ses-05Pets_task-PassiveHighVid_run-1
+2025-05-19 14:24:11,248 - INFO - sub-07_ses-05Pets_task-PassiveLowVid_run-1
+2025-05-19 14:24:53,009 - INFO - sub-07_ses-05Pets_task-PassiveMixedVid_run-1
+2025-05-19 14:25:33,873 - INFO - sub-07 Done
+2025-05-19 14:25:34,891 - INFO - sub-08_ses-02Nature_task-ActiveLowVid_run-1
+2025-05-19 14:26:16,542 - INFO - sub-08_ses-02Nature_task-ActiveMixedVid_run-1
+2025-05-19 14:26:57,976 - INFO - sub-08_ses-02Nature_task-PVT_run-1
+2025-05-19 14:27:36,634 - INFO - sub-08_ses-02Nature_task-PassiveHighVid_run-1
+2025-05-19 14:28:19,368 - INFO - sub-08_ses-02Nature_task-PassiveLowVid_run-1
+2025-05-19 14:29:02,833 - INFO - sub-08_ses-02Nature_task-PassiveMixedVid_run-1
+2025-05-19 14:29:44,187 - INFO - sub-08_ses-03Fitness_task-ActiveLowVid_run-1
+2025-05-19 14:30:24,508 - INFO - sub-08_ses-03Fitness_task-ActiveMixedVid_run-1
+2025-05-19 14:31:05,886 - INFO - sub-08_ses-03Fitness_task-PVT_run-1
+2025-05-19 14:31:42,921 - INFO - sub-08_ses-03Fitness_task-PassiveHighVid_run-1
+2025-05-19 14:32:22,341 - INFO - sub-08_ses-03Fitness_task-PassiveLowVid_run-1
+2025-05-19 14:33:01,680 - INFO - sub-08_ses-03Fitness_task-PassiveMixedVid_run-1
+2025-05-19 14:33:40,664 - INFO - sub-08_ses-04Diy_task-ActiveLowVid_run-1
+2025-05-19 14:34:27,873 - INFO - sub-08_ses-04Diy_task-ActiveMixedVid_run-1
+2025-05-19 14:35:11,921 - INFO - sub-08_ses-04Diy_task-PVT_run-1
+2025-05-19 14:35:50,010 - INFO - sub-08_ses-04Diy_task-PassiveHighVid_run-1
+2025-05-19 14:36:31,540 - INFO - sub-08_ses-04Diy_task-PassiveLowVid_run-1
+2025-05-19 14:37:16,925 - INFO - sub-08_ses-04Diy_task-PassiveMixedVid_run-1
+2025-05-19 14:38:00,334 - INFO - sub-08 Done
+2025-05-19 14:38:02,720 - INFO - sub-09_ses-02Food_task-ActiveLowVid_run-1
+2025-05-19 14:38:42,512 - INFO - sub-09_ses-02Food_task-ActiveMixedVid_run-1
+2025-05-19 14:39:22,820 - INFO - sub-09_ses-02Food_task-PVT_run-1
+2025-05-19 14:40:01,620 - INFO - sub-09_ses-02Food_task-PassiveHighVid_run-1
+2025-05-19 14:40:42,448 - INFO - sub-09_ses-02Food_task-PassiveLowVid_run-1
+2025-05-19 14:41:24,153 - INFO - sub-09_ses-02Food_task-PassiveMixedVid_run-1
+2025-05-19 14:42:07,144 - INFO - sub-09_ses-03Pets_task-ActiveLowVid_run-1
+2025-05-19 14:42:47,969 - INFO - sub-09_ses-03Pets_task-ActiveMixedVid_run-1
+2025-05-19 14:43:26,552 - INFO - sub-09_ses-03Pets_task-PVT_run-1
+2025-05-19 14:44:03,182 - INFO - sub-09_ses-03Pets_task-PassiveHighVid_run-1
+2025-05-19 14:44:44,369 - INFO - sub-09_ses-03Pets_task-PassiveLowVid_run-1
+2025-05-19 14:45:25,827 - INFO - sub-09_ses-03Pets_task-PassiveMixedVid_run-1
+2025-05-19 14:46:06,661 - INFO - sub-09_ses-04Baby_task-ActiveLowVid_run-1
+2025-05-19 14:46:47,974 - INFO - sub-09_ses-04Baby_task-ActiveMixedVid_run-1
+2025-05-19 14:47:28,214 - INFO - sub-09_ses-04Baby_task-PVT_run-1
+2025-05-19 14:47:55,450 - INFO - sub-09_ses-04Baby_task-PassiveHighVid_run-1
+2025-05-19 14:48:34,968 - INFO - sub-09_ses-04Baby_task-PassiveLowVid_run-1
+2025-05-19 14:49:15,008 - INFO - sub-09_ses-04Baby_task-PassiveMixedVid_run-1
+2025-05-19 14:49:55,821 - INFO - sub-09 Done
+2025-05-19 14:49:56,873 - INFO - sub-10_ses-02Beauty_task-ActiveLowVid_run-1
+2025-05-19 14:50:36,443 - INFO - sub-10_ses-02Beauty_task-ActiveMixedVid_run-1
+2025-05-19 14:51:17,169 - INFO - sub-10_ses-02Beauty_task-PVT_run-1
+2025-05-19 14:51:54,629 - INFO - sub-10_ses-02Beauty_task-PassiveHighVid_run-1
+2025-05-19 14:52:34,402 - INFO - sub-10_ses-02Beauty_task-PassiveLowVid_run-1
+2025-05-19 14:53:15,706 - INFO - sub-10_ses-02Beauty_task-PassiveMixedVid_run-1
+2025-05-19 14:53:55,380 - INFO - sub-10 Done

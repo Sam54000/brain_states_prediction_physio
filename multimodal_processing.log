@@ -1,0 +1,47 @@
+Traceback (most recent call last):
+  File "/Users/samuel/01_projects/brain_states_prediction_physio/./labs/ml_pipeline.py", line 39, in <module>
+    eyetracking_data = pickle.load(ef)
+                       ^^^^^^^^^^^^^^^
+AttributeError: 'bytes' object has no attribute 'append'
+2:58,336 - INFO - Multimodal file already exists
+2025-05-29 16:32:58,337 - INFO - Processing:
+	subject: 03
+	session: 01Fitness
+	task: ActiveMixedVid
+	
+2025-05-29 16:33:00,035 - INFO - Multimodal file already exists
+2025-05-29 16:33:00,035 - INFO - Processing:
+	subject: 03
+	session: 01Fitness
+	task: PVT
+	
+2025-05-29 16:33:02,396 - INFO - Multimodal file already exists
+2025-05-29 16:33:02,397 - INFO - Processing:
+	subject: 03
+	session: 01Fitness
+	task: PassiveHighVid
+	
+2025-05-29 16:33:04,273 - INFO - Multimodal file already exists
+2025-05-29 16:33:04,274 - INFO - Processing:
+	subject: 03
+	session: 01Fitness
+	task: PassiveLowVid
+	
+2025-05-29 16:33:04,670 - INFO - Multimodal file already exists
+2025-05-29 16:33:04,671 - INFO - Processing:
+	subject: 03
+	session: 01Fitness
+	task: PassiveMixedVid
+	
+2025-05-29 16:33:05,068 - INFO - Multimodal file already exists
+2025-05-29 16:33:05,069 - INFO - Processing:
+	subject: 03
+	session: 02Advice
+	task: ActiveHighVid
+	
+2025-05-29 16:33:05,542 - INFO - Multimodal file already exists
+2025-05-29 16:33:05,543 - INFO - Processing:
+	subject: 03
+	session: 02Advice
+	task: ActiveLowVid
+	
