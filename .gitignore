@@ -1,5 +1,7 @@
 /.history
 /.mypy_cache
+/figs
+/data
 *.egg-info/
 ecg-detectors/
 __pycache__/

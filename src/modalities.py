@@ -5,7 +5,7 @@ from scipy.stats import kurtosis, entropy
 import scipy
 from scipy.signal import welch
 from typing import Optional
-from src.utils import (
+from utils import (
     catch_error,
     wavelet_denoise,
     smooth_signal,

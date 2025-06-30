@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import pickle
 import numpy as np
-from src.modalities import (
+from modalities import (
     read_biopac,
     read_eyetracking,
 )
@@ -16,16 +16,15 @@ import logging
 # Configure logging
 logging.basicConfig(
     filename='pipeline.log',
-    filemode='a',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
 if __name__ == "__main__":
     architecture = arch.BidsArchitecture(
-        root = "/Users/samuel/Desktop/PHYSIO_BIDS"
+        root = "/projects/TIKTOK/data/physio_processing/PHYSIO_BIDS/"
         )
-    saving_location = Path("/Volumes/LaCie/processed_2")
+    saving_location = Path("/projects/TIKTOK/data/physio_processing/PHYSIO_BIDS_PROCESSED/")
     saving_location.mkdir(parents = True, exist_ok = True)
     subjects = architecture.subjects
     for subject in subjects:
@@ -53,8 +52,8 @@ if __name__ == "__main__":
             extension = ".gz")
 
         products = list(itertools.product(
-            selection.sessions[1:],
-            selection.tasks[1:],
+            selection.sessions,
+            selection.tasks,
             ["1"]
         ))
 
@@ -138,11 +137,13 @@ if __name__ == "__main__":
                             report["ecg_quality"].append(biopac_data["ecg"].quality["masks_based"])
                             report["ecg_snr"].append(biopac_data["ecg"].snr)
                         except Exception as e:
+                            #raise e
                             report["ecg"].append(False)
                             report["ecg_quality"].append(np.nan)
                             logging.exception(e)
 
                 except Exception as e:
+                    #raise e
                     biopac = False
                     logging.exception(e)
                 report["biopac"].append(biopac)
@@ -179,6 +180,7 @@ if __name__ == "__main__":
                         plt.close(eye_fig)
 
                 except Exception as e:
+                    #raise e
                     report["eyetracking"].append(False)
                     report["eyetracking_quality"].append(np.nan)
                     logging.exception(e)
